@@ -14,7 +14,7 @@ class GeneticPerformanceClient(Node):
     def __init__(self):
         
                
-        # nombre del nodo que aparecerá si hacemos
+        # nombre del nodo de cara a otros nodos
         super().__init__('genetic_algorithm_node')
         
         # declaración de parámetro para pruebas de cambio de valor
