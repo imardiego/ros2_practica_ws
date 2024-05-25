@@ -1,0 +1,5 @@
+  File "/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/algoritmo_genetico_profesor.py", line 46
+    print("Kp:",Gen_Kp, "Ki:",Gen_Ki, "Kd: "Gen_Kd)
+                                      ^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

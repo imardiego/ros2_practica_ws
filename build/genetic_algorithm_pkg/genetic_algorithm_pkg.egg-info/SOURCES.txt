@@ -12,6 +12,9 @@ setup.py
 genetic_algorithm_pkg/__init__.py
 genetic_algorithm_pkg/genetic_algorithm_node.py
 genetic_algorithm_pkg/genetic_algorithm_prueba_node.py
+genetic_algorithm_pkg/utils/__init__.py
+genetic_algorithm_pkg/utils/algoritmo_genetico_miguel.py
+genetic_algorithm_pkg/utils/algoritmo_genetico_profesor.py
 resource/genetic_algorithm_pkg
 test/test_copyright.py
 test/test_flake8.py

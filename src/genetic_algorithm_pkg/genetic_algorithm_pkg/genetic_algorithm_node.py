@@ -13,8 +13,7 @@ class GeneticPerformanceClient(Node):
     # la clase GeneticPerformanceClient
     def __init__(self):
         
-        self.AG = Genetico()
-       
+               
         # nombre del nodo que aparecerá si hacemos
         super().__init__('genetic_algorithm_node')
         
@@ -40,6 +39,8 @@ class GeneticPerformanceClient(Node):
         self.req = SimPID.Request()
         
         self.AG = Genetico()
+        
+        
 
         
     # En el momento que se recibe un valor por el topic
@@ -74,8 +75,11 @@ def main():
    
     # inicializa comunicaciones
     rclpy.init()
-    # instanciacion de la clase declarada arriba
+    # instanciacion de la clase declarada arriba.
     minimal_client =GeneticPerformanceClient()
+    
+    minimal_client.AG.set_request(minimal_client)
+    minimal_client.AG.llamada_control(335.0,336.0,337.0)
    
     # bucle de dos iteraciones para imitiar el algoritmo genético
     # que realiza una petición por cada individuo enviando kp, ki, kd
