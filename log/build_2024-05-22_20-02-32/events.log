@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000649] (-) JobUnselected: {'identifier': 'msgs_control'}
+[0.000761] (-) JobUnselected: {'identifier': 'my_genetic_pkg'}
+[0.000864] (-) JobUnselected: {'identifier': 'my_messages_control'}
+[0.000969] (-) JobUnselected: {'identifier': 'my_sim_pkg'}
+[0.001059] (-) JobUnselected: {'identifier': 'paquete_lanzador'}
+[0.001151] (sim_pkg) JobQueued: {'identifier': 'sim_pkg', 'dependencies': OrderedDict()}
+[0.001272] (sim_pkg) JobStarted: {'identifier': 'sim_pkg'}
+[0.099254] (-) TimerEvent: {}
+[0.199698] (-) TimerEvent: {}
+[0.300193] (-) TimerEvent: {}
+[0.400648] (-) TimerEvent: {}
+[0.501076] (-) TimerEvent: {}
+[0.601506] (-) TimerEvent: {}
+[0.702468] (-) TimerEvent: {}
+[0.803003] (-) TimerEvent: {}
+[0.903424] (-) TimerEvent: {}
+[1.003893] (-) TimerEvent: {}
+[1.104442] (-) TimerEvent: {}
+[1.204884] (-) TimerEvent: {}
+[1.283581] (sim_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/sim_pkg', 'build', '--build-base', '/home/miguel/ros2_practica_ws/build/sim_pkg/build', 'install', '--record', '/home/miguel/ros2_practica_ws/build/sim_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/miguel/ros2_practica_ws/src/sim_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'miguel', 'GIT_ASKPASS': '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/miguel/ros2_practica_ws/install/my_messages_control/lib:/home/miguel/ros2_practica_ws/install/msgs_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}', 'HOME': '/home/miguel', 'OLDPWD': '/home/miguel', 'TERM_PROGRAM_VERSION': '1.89.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b0f19828-5fda-4070-923b-62385c16b6f7.sock', 'ROS_PYTHON_VERSION': '3', 'SCALA_HOME': '/home/miguel/scala3-3.3.1', 'VSCODE_GIT_ASKPASS_MAIN': '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/miguel/ros2_practica_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'miguel', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/662_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/bin:/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/home/miguel/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.4/bin:/mnt/c/Users/Miguel/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin', 'WT_SESSION': 'c587e00d-a503-42d4-8773-81c56f895d23', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-4525633ee6.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/miguel/ros2_practica_ws/install/sim_pkg:/home/miguel/ros2_practica_ws/install/paquete_lanzador:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/home/miguel/ros2_practica_ws/install/my_messages_control:/home/miguel/ros2_practica_ws/install/msgs_control:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/miguel/ros2_practica_ws/build/sim_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/miguel/ros2_practica_ws/build/sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages:/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/miguel/ros2_practica_ws/install/my_messages_control:/home/miguel/ros2_practica_ws/install/msgs_control', 'SPARK_HOME': '/home/miguel/spark-3.5.0-bin-hadoop3', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.305090] (-) TimerEvent: {}
+[1.405588] (-) TimerEvent: {}
+[1.506092] (-) TimerEvent: {}
+[1.606623] (-) TimerEvent: {}
+[1.707105] (-) TimerEvent: {}
+[1.807561] (-) TimerEvent: {}
+[1.809434] (sim_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.810532] (sim_pkg) StdoutLine: {'line': b'writing ../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO\n'}
+[1.810971] (sim_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt\n'}
+[1.811331] (sim_pkg) StdoutLine: {'line': b'writing entry points to ../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt\n'}
+[1.811785] (sim_pkg) StdoutLine: {'line': b'writing requirements to ../../build/sim_pkg/sim_pkg.egg-info/requires.txt\n'}
+[1.812214] (sim_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/sim_pkg/sim_pkg.egg-info/top_level.txt\n'}
+[1.814920] (sim_pkg) StdoutLine: {'line': b"reading manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'\n"}
+[1.817381] (sim_pkg) StdoutLine: {'line': b"writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'\n"}
+[1.819042] (sim_pkg) StdoutLine: {'line': b'running build\n'}
+[1.819378] (sim_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.820639] (sim_pkg) StdoutLine: {'line': b'running install\n'}
+[1.821332] (sim_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.824513] (sim_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.825523] (sim_pkg) StdoutLine: {'line': b'copying launch/sim_srv.launch.py -> /home/miguel/ros2_practica_ws/install/sim_pkg/share/sim_pkg\n'}
+[1.825882] (sim_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.829499] (sim_pkg) StdoutLine: {'line': b"removing '/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.830248] (sim_pkg) StdoutLine: {'line': b'Copying ../../build/sim_pkg/sim_pkg.egg-info to /home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info\n'}
+[1.832749] (sim_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.865607] (sim_pkg) StdoutLine: {'line': b'Installing simulator script to /home/miguel/ros2_practica_ws/install/sim_pkg/lib/sim_pkg\n'}
+[1.866565] (sim_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/miguel/ros2_practica_ws/build/sim_pkg/install.log'\n"}
+[1.907742] (-) TimerEvent: {}
+[1.909541] (sim_pkg) CommandEnded: {'returncode': 0}
+[1.933584] (sim_pkg) JobEnded: {'identifier': 'sim_pkg', 'rc': 0}
+[1.935288] (-) EventReactorShutdown: {}

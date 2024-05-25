@@ -1,0 +1,148 @@
+[0.018s] Invoking command in '/home/miguel/ros2_practica_ws/build/my_messages_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/my_messages_control -- -j4 -l4
+[0.091s] [  3%] Built target my_messages_control__cpp
+[0.100s] [ 12%] Built target my_messages_control__rosidl_generator_c
+[0.117s] [ 12%] Built target ament_cmake_python_copy_my_messages_control
+[0.144s] [ 22%] Built target my_messages_control__rosidl_typesupport_introspection_cpp
+[0.150s] [ 32%] Built target my_messages_control__rosidl_typesupport_fastrtps_cpp
+[0.157s] [ 41%] Built target my_messages_control__rosidl_typesupport_cpp
+[0.163s] [ 51%] Built target my_messages_control__rosidl_typesupport_fastrtps_c
+[0.202s] [ 61%] Built target my_messages_control__rosidl_typesupport_c
+[0.205s] [ 70%] Built target my_messages_control__rosidl_typesupport_introspection_c
+[0.245s] [ 70%] Built target my_messages_control
+[0.326s] [ 74%] Built target my_messages_control__py
+[0.413s] [ 80%] Built target my_messages_control__rosidl_generator_py
+[0.495s] [ 87%] Built target my_messages_control__rosidl_typesupport_fastrtps_c__pyext
+[0.502s] [ 93%] Built target my_messages_control__rosidl_typesupport_c__pyext
+[0.508s] [100%] Built target my_messages_control__rosidl_typesupport_introspection_c__pyext
+[0.891s] running egg_info
+[0.892s] writing my_messages_control.egg-info/PKG-INFO
+[0.893s] writing dependency_links to my_messages_control.egg-info/dependency_links.txt
+[0.893s] writing top-level names to my_messages_control.egg-info/top_level.txt
+[0.897s] reading manifest file 'my_messages_control.egg-info/SOURCES.txt'
+[0.898s] writing manifest file 'my_messages_control.egg-info/SOURCES.txt'
+[0.947s] [100%] Built target ament_cmake_python_build_my_messages_control_egg
+[0.962s] Invoked command in '/home/miguel/ros2_practica_ws/build/my_messages_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/my_messages_control -- -j4 -l4
+[1.046s] Invoking command in '/home/miguel/ros2_practica_ws/build/my_messages_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/my_messages_control
+[1.056s] -- Install configuration: ""
+[1.056s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/rosidl_interfaces/my_messages_control
+[1.057s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.057s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.058s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/my_simulator_pid.h
+[1.058s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.058s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__functions.h
+[1.059s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__functions.c
+[1.059s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__struct.h
+[1.059s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.h
+[1.060s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg
+[1.060s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_generator_c__visibility_control.h
+[1.060s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/library_path.sh
+[1.060s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/library_path.dsv
+[1.061s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_c.so
+[1.061s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.061s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.062s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.062s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_fastrtps_c.h
+[1.062s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg
+[1.063s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.063s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_c.so
+[1.063s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.064s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.064s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.064s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_introspection_c.h
+[1.065s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.c
+[1.065s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg
+[1.065s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.066s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_c.so
+[1.066s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_c.so
+[1.066s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.066s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.066s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/my_simulator_pid.hpp
+[1.067s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.067s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__struct.hpp
+[1.067s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__builder.hpp
+[1.067s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__traits.hpp
+[1.067s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/dds_fastrtps
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg
+[1.068s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_cpp.so
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_introspection_cpp.hpp
+[1.069s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.cpp
+[1.070s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_cpp.so
+[1.070s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_cpp.so
+[1.070s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/pythonpath.sh
+[1.070s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/pythonpath.dsv
+[1.070s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info
+[1.070s] -- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/PKG-INFO
+[1.071s] -- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/top_level.txt
+[1.071s] -- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.071s] -- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.071s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_c.c
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/_my_simulator_pid.py
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/_my_simulator_pid_s.c
+[1.072s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/__init__.py
+[1.073s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.073s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.073s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/libmy_messages_control__rosidl_generator_py.so
+[1.073s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.074s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_introspection_c.c
+[1.074s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/__init__.py
+[1.117s] Listing '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control'...
+[1.118s] Listing '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv'...
+[1.127s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.127s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.128s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.129s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_py.so
+[1.129s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID.idl
+[1.130s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID.srv
+[1.130s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID_Request.msg
+[1.130s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID_Response.msg
+[1.130s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/package_run_dependencies/my_messages_control
+[1.130s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/parent_prefix_path/my_messages_control
+[1.131s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/ament_prefix_path.sh
+[1.131s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/ament_prefix_path.dsv
+[1.131s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/path.sh
+[1.132s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/path.dsv
+[1.132s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.bash
+[1.132s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.sh
+[1.133s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.zsh
+[1.133s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.dsv
+[1.134s] -- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.dsv
+[1.136s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/packages/my_messages_control
+[1.136s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cExport.cmake
+[1.136s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cExport-noconfig.cmake
+[1.136s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cExport.cmake
+[1.137s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.137s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cExport.cmake
+[1.137s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.137s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cExport.cmake
+[1.137s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cExport-noconfig.cmake
+[1.138s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cppExport.cmake
+[1.138s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.139s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.139s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cppExport.cmake
+[1.139s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.139s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cppExport.cmake
+[1.140s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cppExport-noconfig.cmake
+[1.140s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_pyExport.cmake
+[1.140s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_pyExport-noconfig.cmake
+[1.140s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake-extras.cmake
+[1.141s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.141s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_libraries-extras.cmake
+[1.141s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_targets-extras.cmake
+[1.142s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.142s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.142s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.142s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_controlConfig.cmake
+[1.143s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_controlConfig-version.cmake
+[1.143s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.xml
+[1.145s] Invoked command in '/home/miguel/ros2_practica_ws/build/my_messages_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/my_messages_control

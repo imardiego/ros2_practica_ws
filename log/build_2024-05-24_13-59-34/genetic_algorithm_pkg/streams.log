@@ -1,0 +1,44 @@
+[1.753s] Invoking command in '/home/miguel/ros2_practica_ws/src/genetic_algorithm_pkg': AMENT_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/msgs_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/genetic_algorithm_pkg build --build-base /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build install --record /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log --single-version-externally-managed install_data
+[2.224s] running egg_info
+[2.226s] creating ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info
+[2.226s] writing ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/PKG-INFO
+[2.228s] writing dependency_links to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/dependency_links.txt
+[2.231s] writing entry points to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/entry_points.txt
+[2.233s] writing requirements to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/requires.txt
+[2.234s] writing top-level names to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/top_level.txt
+[2.235s] writing manifest file '../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/SOURCES.txt'
+[2.240s] reading manifest file '../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/SOURCES.txt'
+[2.240s] adding license file 'LICENSE'
+[2.242s] writing manifest file '../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/SOURCES.txt'
+[2.243s] running build
+[2.243s] running build_py
+[2.244s] creating /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build
+[2.244s] creating /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib
+[2.244s] creating /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.244s] copying genetic_algorithm_pkg/manual_miguel_genetic.py -> /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.245s] copying genetic_algorithm_pkg/manual_profesor_genetic.py -> /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.245s] copying genetic_algorithm_pkg/__init__.py -> /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.245s] copying genetic_algorithm_pkg/genetic_algorithm_node.py -> /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.246s] running install
+[2.246s] running install_lib
+[2.247s] creating /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.248s] copying /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg/manual_miguel_genetic.py -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.248s] copying /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg/manual_profesor_genetic.py -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.249s] copying /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg/__init__.py -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.249s] copying /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg/genetic_algorithm_node.py -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.250s] byte-compiling /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/manual_miguel_genetic.py to manual_miguel_genetic.cpython-310.pyc
+[2.253s] byte-compiling /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/manual_profesor_genetic.py to manual_profesor_genetic.cpython-310.pyc
+[2.254s] byte-compiling /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__init__.py to __init__.cpython-310.pyc
+[2.255s] byte-compiling /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node.py to genetic_algorithm_node.cpython-310.pyc
+[2.256s] running install_data
+[2.256s] creating /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/ament_index
+[2.256s] creating /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/ament_index/resource_index
+[2.257s] creating /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/ament_index/resource_index/packages
+[2.257s] copying resource/genetic_algorithm_pkg -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/ament_index/resource_index/packages
+[2.257s] copying package.xml -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/genetic_algorithm_pkg
+[2.257s] running install_egg_info
+[2.260s] Copying ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info to /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info
+[2.262s] running install_scripts
+[2.292s] Installing genetic script to /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/genetic_algorithm_pkg
+[2.292s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log'
+[2.346s] Invoked command in '/home/miguel/ros2_practica_ws/src/genetic_algorithm_pkg' returned '0': AMENT_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/msgs_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/genetic_algorithm_pkg build --build-base /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build install --record /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log --single-version-externally-managed install_data

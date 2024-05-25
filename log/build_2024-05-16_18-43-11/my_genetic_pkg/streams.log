@@ -1,0 +1,38 @@
+[1.746s] Invoking command in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg': AMENT_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_genetic_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_genetic_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log --single-version-externally-managed install_data
+[2.197s] running egg_info
+[2.197s] creating ../../build/my_genetic_pkg/my_genetic_pkg.egg-info
+[2.198s] writing ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/PKG-INFO
+[2.198s] writing dependency_links to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/dependency_links.txt
+[2.199s] writing entry points to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/entry_points.txt
+[2.199s] writing requirements to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/requires.txt
+[2.199s] writing top-level names to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/top_level.txt
+[2.200s] writing manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+[2.202s] reading manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+[2.202s] adding license file 'LICENSE'
+[2.203s] writing manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+[2.204s] running build
+[2.204s] running build_py
+[2.204s] creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build
+[2.205s] creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib
+[2.205s] creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+[2.205s] copying my_genetic_pkg/my_genetic_node.py -> /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+[2.206s] copying my_genetic_pkg/__init__.py -> /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+[2.206s] running install
+[2.206s] running install_lib
+[2.208s] creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+[2.208s] copying /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg/my_genetic_node.py -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+[2.208s] copying /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg/__init__.py -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+[2.209s] byte-compiling /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg/my_genetic_node.py to my_genetic_node.cpython-310.pyc
+[2.210s] byte-compiling /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg/__init__.py to __init__.cpython-310.pyc
+[2.211s] running install_data
+[2.212s] creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index
+[2.212s] creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index
+[2.212s] creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index/packages
+[2.212s] copying resource/my_genetic_pkg -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index/packages
+[2.213s] copying package.xml -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg
+[2.214s] running install_egg_info
+[2.216s] Copying ../../build/my_genetic_pkg/my_genetic_pkg.egg-info to /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg-0.0.0-py3.10.egg-info
+[2.218s] running install_scripts
+[2.253s] Installing genetic script to /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/my_genetic_pkg
+[2.254s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log'
+[2.300s] Invoked command in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg' returned '0': AMENT_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/my_messages_control/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_genetic_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages:/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_genetic_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log --single-version-externally-managed install_data

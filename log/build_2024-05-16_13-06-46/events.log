@@ -1,0 +1,354 @@
+[0.000000] (-) TimerEvent: {}
+[0.000978] (my_messages_control) JobQueued: {'identifier': 'my_messages_control', 'dependencies': OrderedDict()}
+[0.001087] (my_messages_control) JobStarted: {'identifier': 'my_messages_control'}
+[0.015353] (my_messages_control) JobProgress: {'identifier': 'my_messages_control', 'progress': 'cmake'}
+[0.016657] (my_messages_control) Command: {'cmd': ['/usr/bin/cmake', '/home/miguel/ros2_practica_ws/src/my_messages_control', '-DCMAKE_INSTALL_PREFIX=/home/miguel/ros2_practica_ws/install/my_messages_control'], 'cwd': '/home/miguel/ros2_practica_ws/build/my_messages_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'miguel'), ('GIT_ASKPASS', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/miguel'), ('OLDPWD', '/home/miguel'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62ed3f28-8d22-4823-a787-b73a6a62fbaf.sock'), ('ROS_PYTHON_VERSION', '3'), ('SCALA_HOME', '/home/miguel/scala3-3.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'miguel'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/30578_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/bin:/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/home/miguel/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.4/bin:/mnt/c/Users/Miguel/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin'), ('WT_SESSION', 'dd0704ae-0d32-4217-a41c-5d9722e425a8'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4525633ee6.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/miguel/ros2_practica_ws/build/my_messages_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('SPARK_HOME', '/home/miguel/spark-3.5.0-bin-hadoop3'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099210] (-) TimerEvent: {}
+[0.199726] (-) TimerEvent: {}
+[0.300400] (-) TimerEvent: {}
+[0.400982] (-) TimerEvent: {}
+[0.415276] (my_messages_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501154] (-) TimerEvent: {}
+[0.601674] (-) TimerEvent: {}
+[0.702245] (-) TimerEvent: {}
+[0.802750] (-) TimerEvent: {}
+[0.903224] (-) TimerEvent: {}
+[0.923531] (my_messages_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.003368] (-) TimerEvent: {}
+[1.103885] (-) TimerEvent: {}
+[1.204383] (-) TimerEvent: {}
+[1.206299] (my_messages_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.304519] (-) TimerEvent: {}
+[1.374569] (my_messages_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.386833] (my_messages_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.389573] (my_messages_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.390931] (my_messages_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.396700] (my_messages_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.404684] (-) TimerEvent: {}
+[1.505174] (-) TimerEvent: {}
+[1.579709] (my_messages_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.597946] (my_messages_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.598402] (my_messages_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.599202] (my_messages_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.605312] (-) TimerEvent: {}
+[1.615996] (my_messages_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.705471] (-) TimerEvent: {}
+[1.805933] (-) TimerEvent: {}
+[1.851481] (my_messages_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.906090] (-) TimerEvent: {}
+[2.006637] (-) TimerEvent: {}
+[2.011453] (my_messages_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.106812] (-) TimerEvent: {}
+[2.151750] (my_messages_control) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.161729] (my_messages_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.181314] (my_messages_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.206946] (-) TimerEvent: {}
+[2.307527] (-) TimerEvent: {}
+[2.404855] (my_messages_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.407671] (-) TimerEvent: {}
+[2.508112] (-) TimerEvent: {}
+[2.608622] (-) TimerEvent: {}
+[2.709140] (-) TimerEvent: {}
+[2.809804] (-) TimerEvent: {}
+[2.810873] (my_messages_control) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.909994] (-) TimerEvent: {}
+[3.010452] (-) TimerEvent: {}
+[3.100572] (my_messages_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.110595] (-) TimerEvent: {}
+[3.211047] (-) TimerEvent: {}
+[3.311494] (-) TimerEvent: {}
+[3.411939] (-) TimerEvent: {}
+[3.463450] (my_messages_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.512120] (-) TimerEvent: {}
+[3.580900] (my_messages_control) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.584459] (my_messages_control) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.612257] (-) TimerEvent: {}
+[3.712726] (-) TimerEvent: {}
+[3.813348] (-) TimerEvent: {}
+[3.913993] (-) TimerEvent: {}
+[3.936197] (my_messages_control) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.936646] (my_messages_control) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.936771] (my_messages_control) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.936963] (my_messages_control) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.968236] (my_messages_control) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[4.014128] (-) TimerEvent: {}
+[4.058524] (my_messages_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.061789] (my_messages_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.078707] (my_messages_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.114310] (-) TimerEvent: {}
+[4.128839] (my_messages_control) StdoutLine: {'line': b'-- Generating done\n'}
+[4.134664] (my_messages_control) StdoutLine: {'line': b'-- Build files have been written to: /home/miguel/ros2_practica_ws/build/my_messages_control\n'}
+[4.151169] (my_messages_control) CommandEnded: {'returncode': 0}
+[4.153671] (my_messages_control) JobProgress: {'identifier': 'my_messages_control', 'progress': 'build'}
+[4.153761] (my_messages_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/miguel/ros2_practica_ws/build/my_messages_control', '--', '-j4', '-l4'], 'cwd': '/home/miguel/ros2_practica_ws/build/my_messages_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'miguel'), ('GIT_ASKPASS', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/miguel'), ('OLDPWD', '/home/miguel'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62ed3f28-8d22-4823-a787-b73a6a62fbaf.sock'), ('ROS_PYTHON_VERSION', '3'), ('SCALA_HOME', '/home/miguel/scala3-3.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'miguel'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/30578_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/bin:/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/home/miguel/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.4/bin:/mnt/c/Users/Miguel/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin'), ('WT_SESSION', 'dd0704ae-0d32-4217-a41c-5d9722e425a8'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4525633ee6.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/miguel/ros2_practica_ws/build/my_messages_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('SPARK_HOME', '/home/miguel/spark-3.5.0-bin-hadoop3'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.199981] (my_messages_control) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.214489] (-) TimerEvent: {}
+[4.215249] (my_messages_control) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.234782] (my_messages_control) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_my_messages_control\n'}
+[4.314613] (-) TimerEvent: {}
+[4.415064] (-) TimerEvent: {}
+[4.515458] (-) TimerEvent: {}
+[4.615909] (-) TimerEvent: {}
+[4.716297] (-) TimerEvent: {}
+[4.816679] (-) TimerEvent: {}
+[4.917093] (-) TimerEvent: {}
+[5.017642] (-) TimerEvent: {}
+[5.057163] (my_messages_control) StdoutLine: {'line': b'running egg_info\n'}
+[5.057492] (my_messages_control) StdoutLine: {'line': b'creating my_messages_control.egg-info\n'}
+[5.058611] (my_messages_control) StdoutLine: {'line': b'writing my_messages_control.egg-info/PKG-INFO\n'}
+[5.058828] (my_messages_control) StdoutLine: {'line': b'writing dependency_links to my_messages_control.egg-info/dependency_links.txt\n'}
+[5.059035] (my_messages_control) StdoutLine: {'line': b'writing top-level names to my_messages_control.egg-info/top_level.txt\n'}
+[5.059245] (my_messages_control) StdoutLine: {'line': b"writing manifest file 'my_messages_control.egg-info/SOURCES.txt'\n"}
+[5.065629] (my_messages_control) StdoutLine: {'line': b"reading manifest file 'my_messages_control.egg-info/SOURCES.txt'\n"}
+[5.068454] (my_messages_control) StdoutLine: {'line': b"writing manifest file 'my_messages_control.egg-info/SOURCES.txt'\n"}
+[5.101196] (my_messages_control) StdoutLine: {'line': b'[  6%] Built target my_messages_control__cpp\n'}
+[5.116204] (my_messages_control) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.116570] (my_messages_control) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_generator_c.dir/rosidl_generator_c/my_messages_control/srv/detail/my_simulator_pid__functions.c.o\x1b[0m\n'}
+[5.116759] (my_messages_control) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.117784] (-) TimerEvent: {}
+[5.143077] (my_messages_control) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_my_messages_control_egg\n'}
+[5.161782] (my_messages_control) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.217993] (-) TimerEvent: {}
+[5.318452] (-) TimerEvent: {}
+[5.418133] (my_messages_control) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libmy_messages_control__rosidl_generator_c.so\x1b[0m\n'}
+[5.418517] (-) TimerEvent: {}
+[5.518839] (-) TimerEvent: {}
+[5.599841] (my_messages_control) StdoutLine: {'line': b'[ 22%] Built target my_messages_control__rosidl_generator_c\n'}
+[5.616182] (my_messages_control) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.618959] (-) TimerEvent: {}
+[5.719935] (-) TimerEvent: {}
+[5.821203] (-) TimerEvent: {}
+[5.921604] (-) TimerEvent: {}
+[6.022053] (-) TimerEvent: {}
+[6.031709] (my_messages_control) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_messages_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_messages_control/srv/my_simulator_pid__type_support.cpp.o\x1b[0m\n'}
+[6.034019] (my_messages_control) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/my_messages_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_messages_control/srv/detail/my_simulator_pid__type_support.cpp.o\x1b[0m\n'}
+[6.083165] (my_messages_control) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/my_messages_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_messages_control/srv/detail/dds_fastrtps/my_simulator_pid__type_support.cpp.o\x1b[0m\n'}
+[6.122200] (-) TimerEvent: {}
+[6.222687] (-) TimerEvent: {}
+[6.323474] (-) TimerEvent: {}
+[6.423907] (-) TimerEvent: {}
+[6.524111] (my_messages_control) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_messages_control/srv/detail/my_simulator_pid__type_support.c.o\x1b[0m\n'}
+[6.524478] (-) TimerEvent: {}
+[6.620590] (my_messages_control) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking C shared library libmy_messages_control__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.624633] (-) TimerEvent: {}
+[6.725139] (-) TimerEvent: {}
+[6.793368] (my_messages_control) StdoutLine: {'line': b'[ 41%] Built target my_messages_control__rosidl_typesupport_introspection_c\n'}
+[6.810727] (my_messages_control) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.825263] (-) TimerEvent: {}
+[6.925689] (-) TimerEvent: {}
+[6.996627] (my_messages_control) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libmy_messages_control__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.025888] (-) TimerEvent: {}
+[7.136100] (-) TimerEvent: {}
+[7.236576] (-) TimerEvent: {}
+[7.337027] (-) TimerEvent: {}
+[7.437716] (-) TimerEvent: {}
+[7.506290] (my_messages_control) StdoutLine: {'line': b'[ 48%] Built target my_messages_control__rosidl_typesupport_cpp\n'}
+[7.530710] (my_messages_control) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.537847] (-) TimerEvent: {}
+[7.569167] (my_messages_control) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_messages_control__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.638028] (-) TimerEvent: {}
+[7.719217] (my_messages_control) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libmy_messages_control__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.739952] (-) TimerEvent: {}
+[7.753754] (my_messages_control) StdoutLine: {'line': b'[ 58%] Built target my_messages_control__rosidl_typesupport_introspection_cpp\n'}
+[7.840212] (-) TimerEvent: {}
+[7.877361] (my_messages_control) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/my_messages_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_messages_control/srv/my_simulator_pid__type_support.cpp.o\x1b[0m\n'}
+[7.936194] (my_messages_control) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libmy_messages_control__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.940411] (-) TimerEvent: {}
+[8.005668] (my_messages_control) StdoutLine: {'line': b'[ 64%] Built target my_messages_control__rosidl_typesupport_fastrtps_cpp\n'}
+[8.040548] (-) TimerEvent: {}
+[8.069347] (my_messages_control) StdoutLine: {'line': b'[ 64%] Built target my_messages_control__rosidl_typesupport_c\n'}
+[8.140729] (-) TimerEvent: {}
+[8.241257] (-) TimerEvent: {}
+[8.253974] (my_messages_control) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_messages_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_messages_control/srv/detail/my_simulator_pid__type_support_c.cpp.o\x1b[0m\n'}
+[8.341453] (-) TimerEvent: {}
+[8.441952] (-) TimerEvent: {}
+[8.542398] (-) TimerEvent: {}
+[8.642953] (-) TimerEvent: {}
+[8.743436] (-) TimerEvent: {}
+[8.832323] (my_messages_control) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_messages_control__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.843606] (-) TimerEvent: {}
+[8.944232] (-) TimerEvent: {}
+[9.019189] (my_messages_control) StdoutLine: {'line': b'[ 70%] Built target my_messages_control__rosidl_typesupport_fastrtps_c\n'}
+[9.040681] (my_messages_control) StdoutLine: {'line': b'[ 70%] Built target my_messages_control\n'}
+[9.044367] (-) TimerEvent: {}
+[9.066882] (my_messages_control) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.144519] (-) TimerEvent: {}
+[9.244943] (-) TimerEvent: {}
+[9.345374] (-) TimerEvent: {}
+[9.445796] (-) TimerEvent: {}
+[9.546241] (-) TimerEvent: {}
+[9.646657] (-) TimerEvent: {}
+[9.747225] (-) TimerEvent: {}
+[9.796245] (my_messages_control) StdoutLine: {'line': b'[ 74%] Built target my_messages_control__py\n'}
+[9.829449] (my_messages_control) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_generator_py.dir/rosidl_generator_py/my_messages_control/srv/_my_simulator_pid_s.c.o\x1b[0m\n'}
+[9.847390] (-) TimerEvent: {}
+[9.947918] (-) TimerEvent: {}
+[10.048513] (-) TimerEvent: {}
+[10.149054] (-) TimerEvent: {}
+[10.167359] (my_messages_control) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_messages_control/libmy_messages_control__rosidl_generator_py.so\x1b[0m\n'}
+[10.249239] (-) TimerEvent: {}
+[10.340222] (my_messages_control) StdoutLine: {'line': b'[ 80%] Built target my_messages_control__rosidl_generator_py\n'}
+[10.349358] (-) TimerEvent: {}
+[10.401087] (my_messages_control) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.406963] (my_messages_control) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.417381] (my_messages_control) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/my_messages_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.449499] (-) TimerEvent: {}
+[10.549936] (-) TimerEvent: {}
+[10.650308] (-) TimerEvent: {}
+[10.712901] (my_messages_control) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.726850] (my_messages_control) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.750452] (-) TimerEvent: {}
+[10.796453] (my_messages_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[10.850584] (-) TimerEvent: {}
+[10.876064] (my_messages_control) StdoutLine: {'line': b'[100%] Built target my_messages_control__rosidl_typesupport_fastrtps_c__pyext\n'}
+[10.878252] (my_messages_control) StdoutLine: {'line': b'[100%] Built target my_messages_control__rosidl_typesupport_introspection_c__pyext\n'}
+[10.950753] (-) TimerEvent: {}
+[10.978018] (my_messages_control) StdoutLine: {'line': b'[100%] Built target my_messages_control__rosidl_typesupport_c__pyext\n'}
+[11.001369] (my_messages_control) CommandEnded: {'returncode': 0}
+[11.050907] (-) TimerEvent: {}
+[11.106573] (my_messages_control) JobProgress: {'identifier': 'my_messages_control', 'progress': 'install'}
+[11.116411] (my_messages_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/miguel/ros2_practica_ws/build/my_messages_control'], 'cwd': '/home/miguel/ros2_practica_ws/build/my_messages_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'miguel'), ('GIT_ASKPASS', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{e5a83caa-4c73-52b3-ae6b-bc438d721ef9}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/miguel'), ('OLDPWD', '/home/miguel'), ('TERM_PROGRAM_VERSION', '1.89.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-62ed3f28-8d22-4823-a787-b73a6a62fbaf.sock'), ('ROS_PYTHON_VERSION', '3'), ('SCALA_HOME', '/home/miguel/scala3-3.3.1'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'miguel'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/30578_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/bin:/home/miguel/.vscode-server/bin/dc96b837cf6bb4af9cd736aa3af08cf8279f7685/bin/remote-cli:/opt/ros/humble/bin:/home/miguel/.local/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Miguel/AppData/Local/Programs/Python/Python311/:/mnt/c/Users/Miguel/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2023.3.4/bin:/mnt/c/Users/Miguel/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin:/home/miguel/scala3-3.3.1/bin:/home/miguel/spark-3.5.0-bin-hadoop3/bin'), ('WT_SESSION', 'dd0704ae-0d32-4217-a41c-5d9722e425a8'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-4525633ee6.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/miguel/ros2_practica_ws/build/my_messages_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('SPARK_HOME', '/home/miguel/spark-3.5.0-bin-hadoop3'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.133109] (my_messages_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.134903] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/rosidl_interfaces/my_messages_control\n'}
+[11.135235] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.136856] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.137727] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/my_simulator_pid.h\n'}
+[11.137949] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.140113] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__functions.h\n'}
+[11.150789] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__functions.c\n'}
+[11.151171] (-) TimerEvent: {}
+[11.151364] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__struct.h\n'}
+[11.151603] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.h\n'}
+[11.151803] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg\n'}
+[11.151994] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.152193] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/library_path.sh\n'}
+[11.152394] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/library_path.dsv\n'}
+[11.152631] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_c.so\n'}
+[11.152834] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_c.so" to ""\n'}
+[11.153038] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.153207] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.153392] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.153626] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_fastrtps_c.h\n'}
+[11.153855] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg\n'}
+[11.154048] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.154239] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_c.so\n'}
+[11.154436] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.154667] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.154874] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.155477] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.156003] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_introspection_c.h\n'}
+[11.156266] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.c\n'}
+[11.156504] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg\n'}
+[11.156725] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.156902] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_c.so\n'}
+[11.157083] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.157273] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_c.so\n'}
+[11.157446] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_c.so" to ""\n'}
+[11.157653] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.157826] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.157999] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/my_simulator_pid.hpp\n'}
+[11.158171] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.158340] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__struct.hpp\n'}
+[11.158554] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__builder.hpp\n'}
+[11.158730] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__traits.hpp\n'}
+[11.158909] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.159088] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.159258] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.159426] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.160217] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/dds_fastrtps\n'}
+[11.160419] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg\n'}
+[11.160634] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.160921] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.161487] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.161752] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control\n'}
+[11.161986] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv\n'}
+[11.162204] (my_messages_control) StdoutLine: {'line': b'-- Up-to-date: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail\n'}
+[11.162418] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.162672] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/include/my_messages_control/my_messages_control/srv/detail/my_simulator_pid__type_support.cpp\n'}
+[11.162889] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_cpp.so\n'}
+[11.163091] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.163304] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_cpp.so\n'}
+[11.164871] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_typesupport_cpp.so" to ""\n'}
+[11.165082] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/pythonpath.sh\n'}
+[11.165319] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/pythonpath.dsv\n'}
+[11.166054] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info\n'}
+[11.166341] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.166604] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.166828] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.167047] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.167265] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control\n'}
+[11.167487] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_c.c\n'}
+[11.167781] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.168000] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv\n'}
+[11.168214] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/_my_simulator_pid.py\n'}
+[11.168430] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/_my_simulator_pid_s.c\n'}
+[11.168688] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/__init__.py\n'}
+[11.168903] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.169103] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.169281] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/libmy_messages_control__rosidl_generator_py.so\n'}
+[11.169457] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.169682] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/_my_messages_control_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.174034] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/__init__.py\n'}
+[11.251291] (-) TimerEvent: {}
+[11.255505] (my_messages_control) StdoutLine: {'line': b"Listing '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control'...\n"}
+[11.255912] (my_messages_control) StdoutLine: {'line': b"Compiling '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/__init__.py'...\n"}
+[11.256109] (my_messages_control) StdoutLine: {'line': b"Listing '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv'...\n"}
+[11.256322] (my_messages_control) StdoutLine: {'line': b"Compiling '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/__init__.py'...\n"}
+[11.256508] (my_messages_control) StdoutLine: {'line': b"Compiling '/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/srv/_my_simulator_pid.py'...\n"}
+[11.269697] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.270487] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.270888] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.271585] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.272095] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.273119] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/local/lib/python3.10/dist-packages/my_messages_control/my_messages_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.273462] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_py.so\n'}
+[11.274062] (my_messages_control) StdoutLine: {'line': b'-- Set runtime path of "/home/miguel/ros2_practica_ws/install/my_messages_control/lib/libmy_messages_control__rosidl_generator_py.so" to ""\n'}
+[11.274581] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID.idl\n'}
+[11.274936] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID.srv\n'}
+[11.278064] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID_Request.msg\n'}
+[11.278282] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/srv/MySimulatorPID_Response.msg\n'}
+[11.278496] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/package_run_dependencies/my_messages_control\n'}
+[11.279920] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/parent_prefix_path/my_messages_control\n'}
+[11.280450] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/ament_prefix_path.sh\n'}
+[11.280673] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/ament_prefix_path.dsv\n'}
+[11.281032] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/path.sh\n'}
+[11.281430] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/environment/path.dsv\n'}
+[11.281823] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.bash\n'}
+[11.283752] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.sh\n'}
+[11.284975] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.zsh\n'}
+[11.285892] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/local_setup.dsv\n'}
+[11.286513] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.dsv\n'}
+[11.287716] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/ament_index/resource_index/packages/my_messages_control\n'}
+[11.288943] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cExport.cmake\n'}
+[11.289725] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.290465] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.291158] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.291891] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.292557] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.293245] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cExport.cmake\n'}
+[11.293956] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.294767] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_cppExport.cmake\n'}
+[11.297371] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.298091] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.298720] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.300219] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.300538] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cppExport.cmake\n'}
+[11.301580] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_control__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.301944] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_pyExport.cmake\n'}
+[11.302967] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/export_my_messages_control__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.303229] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake-extras.cmake\n'}
+[11.303861] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.304459] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.305864] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.306544] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.307161] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.307808] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.308398] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_controlConfig.cmake\n'}
+[11.308930] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/cmake/my_messages_controlConfig-version.cmake\n'}
+[11.309489] (my_messages_control) StdoutLine: {'line': b'-- Installing: /home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.xml\n'}
+[11.318880] (my_messages_control) CommandEnded: {'returncode': 0}
+[11.351456] (-) TimerEvent: {}
+[11.452202] (-) TimerEvent: {}
+[11.553640] (-) TimerEvent: {}
+[11.570534] (my_messages_control) JobEnded: {'identifier': 'my_messages_control', 'rc': 0}
+[11.574944] (-) EventReactorShutdown: {}

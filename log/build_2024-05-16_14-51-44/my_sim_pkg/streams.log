@@ -1,0 +1,37 @@
+[1.983s] Invoking command in '/home/miguel/ros2_practica_ws/src/my_sim_pkg': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_sim_pkg/install.log --single-version-externally-managed install_data
+[2.440s] running egg_info
+[2.443s] creating ../../build/my_sim_pkg/my_sim_pkg.egg-info
+[2.444s] writing ../../build/my_sim_pkg/my_sim_pkg.egg-info/PKG-INFO
+[2.444s] writing dependency_links to ../../build/my_sim_pkg/my_sim_pkg.egg-info/dependency_links.txt
+[2.445s] writing entry points to ../../build/my_sim_pkg/my_sim_pkg.egg-info/entry_points.txt
+[2.445s] writing requirements to ../../build/my_sim_pkg/my_sim_pkg.egg-info/requires.txt
+[2.445s] writing top-level names to ../../build/my_sim_pkg/my_sim_pkg.egg-info/top_level.txt
+[2.446s] writing manifest file '../../build/my_sim_pkg/my_sim_pkg.egg-info/SOURCES.txt'
+[2.449s] reading manifest file '../../build/my_sim_pkg/my_sim_pkg.egg-info/SOURCES.txt'
+[2.449s] adding license file 'LICENSE'
+[2.450s] writing manifest file '../../build/my_sim_pkg/my_sim_pkg.egg-info/SOURCES.txt'
+[2.450s] running build
+[2.451s] running build_py
+[2.451s] creating /home/miguel/ros2_practica_ws/build/my_sim_pkg/build
+[2.451s] creating /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib
+[2.452s] creating /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib/my_sim_pkg
+[2.452s] copying my_sim_pkg/my_sim_node.py -> /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib/my_sim_pkg
+[2.452s] copying my_sim_pkg/__init__.py -> /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib/my_sim_pkg
+[2.452s] running install
+[2.453s] running install_lib
+[2.454s] creating /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg
+[2.454s] copying /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib/my_sim_pkg/my_sim_node.py -> /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg
+[2.454s] copying /home/miguel/ros2_practica_ws/build/my_sim_pkg/build/lib/my_sim_pkg/__init__.py -> /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg
+[2.455s] byte-compiling /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg/my_sim_node.py to my_sim_node.cpython-310.pyc
+[2.456s] byte-compiling /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg/__init__.py to __init__.cpython-310.pyc
+[2.457s] running install_data
+[2.457s] creating /home/miguel/ros2_practica_ws/install/my_sim_pkg/share/ament_index
+[2.457s] creating /home/miguel/ros2_practica_ws/install/my_sim_pkg/share/ament_index/resource_index
+[2.458s] creating /home/miguel/ros2_practica_ws/install/my_sim_pkg/share/ament_index/resource_index/packages
+[2.458s] copying resource/my_sim_pkg -> /home/miguel/ros2_practica_ws/install/my_sim_pkg/share/ament_index/resource_index/packages
+[2.459s] copying package.xml -> /home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg
+[2.459s] running install_egg_info
+[2.462s] Copying ../../build/my_sim_pkg/my_sim_pkg.egg-info to /home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages/my_sim_pkg-0.0.0-py3.10.egg-info
+[2.464s] running install_scripts
+[2.492s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/my_sim_pkg/install.log'
+[2.545s] Invoked command in '/home/miguel/ros2_practica_ws/src/my_sim_pkg' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_sim_pkg/install.log --single-version-externally-managed install_data

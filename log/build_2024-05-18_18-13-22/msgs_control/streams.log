@@ -1,0 +1,231 @@
+[0.055s] Invoking command in '/home/miguel/ros2_practica_ws/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake /home/miguel/ros2_practica_ws/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/miguel/ros2_practica_ws/install/msgs_control
+[0.447s] -- The C compiler identification is GNU 11.4.0
+[1.082s] -- The CXX compiler identification is GNU 11.4.0
+[1.402s] -- Detecting C compiler ABI info
+[1.619s] -- Detecting C compiler ABI info - done
+[1.649s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.651s] -- Detecting C compile features
+[1.653s] -- Detecting C compile features - done
+[1.668s] -- Detecting CXX compiler ABI info
+[1.871s] -- Detecting CXX compiler ABI info - done
+[1.888s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.889s] -- Detecting CXX compile features
+[1.890s] -- Detecting CXX compile features - done
+[1.907s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.181s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.418s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.576s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.586s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.602s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.824s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.291s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.645s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.241s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.249s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.658s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.658s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.658s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.658s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.692s] -- Found PythonExtra: .so  
+[4.802s] -- Added test 'lint_cmake' to check CMake code style
+[4.805s] -- Added test 'xmllint' to check XML markup files
+[4.823s] -- Configuring done
+[4.903s] -- Generating done
+[4.913s] -- Build files have been written to: /home/miguel/ros2_practica_ws/build/msgs_control
+[4.925s] Invoked command in '/home/miguel/ros2_practica_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake /home/miguel/ros2_practica_ws/src/msgs_control -DCMAKE_INSTALL_PREFIX=/home/miguel/ros2_practica_ws/install/msgs_control
+[4.931s] Invoking command in '/home/miguel/ros2_practica_ws/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/msgs_control -- -j4 -l4
+[5.006s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.025s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.046s] [  6%] Built target ament_cmake_python_copy_msgs_control
+[5.992s] running egg_info
+[5.994s] creating msgs_control.egg-info
+[5.995s] writing msgs_control.egg-info/PKG-INFO
+[5.995s] writing dependency_links to msgs_control.egg-info/dependency_links.txt
+[5.995s] writing top-level names to msgs_control.egg-info/top_level.txt
+[5.996s] writing manifest file 'msgs_control.egg-info/SOURCES.txt'
+[6.006s] reading manifest file 'msgs_control.egg-info/SOURCES.txt'
+[6.008s] writing manifest file 'msgs_control.egg-info/SOURCES.txt'
+[6.059s] [  6%] Built target msgs_control__cpp
+[6.096s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.107s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.126s] [ 12%] Built target ament_cmake_python_build_msgs_control_egg
+[6.155s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.168s] [ 19%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_c.dir/rosidl_generator_c/msgs_control/srv/detail/sim_pid__functions.c.o[0m
+[6.910s] [ 22%] [32m[1mLinking C shared library libmsgs_control__rosidl_generator_c.so[0m
+[7.436s] [ 22%] Built target msgs_control__rosidl_generator_c
+[7.553s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.775s] [ 29%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msgs_control/srv/sim_pid__type_support.cpp.o[0m
+[7.981s] [ 32%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msgs_control/srv/detail/sim_pid__type_support.cpp.o[0m
+[8.246s] [ 35%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msgs_control/srv/detail/dds_fastrtps/sim_pid__type_support.cpp.o[0m
+[9.520s] [ 38%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msgs_control/srv/detail/sim_pid__type_support_c.cpp.o[0m
+[10.407s] [ 41%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_cpp.so[0m
+[10.869s] [ 41%] Built target msgs_control__rosidl_typesupport_cpp
+[10.963s] [ 45%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.051s] [ 48%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_introspection_cpp.so[0m
+[11.192s] [ 51%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.472s] [ 51%] Built target msgs_control__rosidl_typesupport_introspection_cpp
+[11.580s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[11.679s] [ 58%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_fastrtps_c.so[0m
+[11.791s] [ 58%] Built target msgs_control__rosidl_typesupport_fastrtps_cpp
+[12.165s] [ 58%] Built target msgs_control__rosidl_typesupport_fastrtps_c
+[12.516s] [ 61%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msgs_control/srv/detail/sim_pid__type_support.c.o[0m
+[12.653s] [ 64%] [32m[1mLinking C shared library libmsgs_control__rosidl_typesupport_introspection_c.so[0m
+[12.854s] [ 67%] [32mBuilding CXX object CMakeFiles/msgs_control__rosidl_typesupport_c.dir/rosidl_typesupport_c/msgs_control/srv/sim_pid__type_support.cpp.o[0m
+[12.926s] [ 67%] Built target msgs_control__rosidl_typesupport_introspection_c
+[12.955s] [ 70%] [32m[1mLinking CXX shared library libmsgs_control__rosidl_typesupport_c.so[0m
+[13.219s] [ 70%] Built target msgs_control__rosidl_typesupport_c
+[13.357s] [ 70%] Built target msgs_control
+[13.432s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.395s] [ 74%] Built target msgs_control__py
+[14.427s] [ 77%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_generator_py.dir/rosidl_generator_py/msgs_control/srv/_sim_pid_s.c.o[0m
+[14.728s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/libmsgs_control__rosidl_generator_py.so[0m
+[14.866s] [ 80%] Built target msgs_control__rosidl_generator_py
+[14.900s] [ 87%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[14.901s] [ 87%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.906s] [ 90%] [32mBuilding C object CMakeFiles/msgs_control__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c.o[0m
+[15.169s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.178s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.183s] [100%] [32m[1mLinking C shared library rosidl_generator_py/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.324s] [100%] Built target msgs_control__rosidl_typesupport_introspection_c__pyext
+[15.329s] [100%] Built target msgs_control__rosidl_typesupport_fastrtps_c__pyext
+[15.358s] [100%] Built target msgs_control__rosidl_typesupport_c__pyext
+[15.381s] Invoked command in '/home/miguel/ros2_practica_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/msgs_control -- -j4 -l4
+[15.482s] Invoking command in '/home/miguel/ros2_practica_ws/build/msgs_control': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/msgs_control
+[15.495s] -- Install configuration: ""
+[15.496s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/ament_index/resource_index/rosidl_interfaces/msgs_control
+[15.496s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.496s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.497s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.h
+[15.497s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.497s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.c
+[15.498s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.h
+[15.498s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__functions.h
+[15.499s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.h
+[15.499s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[15.500s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_generator_c__visibility_control.h
+[15.500s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/library_path.sh
+[15.501s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/library_path.dsv
+[15.501s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so
+[15.502s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_c.so" to ""
+[15.503s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.503s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.503s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.504s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_c.h
+[15.504s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[15.505s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[15.505s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so
+[15.505s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_c.so" to ""
+[15.506s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.506s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.506s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.507s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_c.h
+[15.507s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.c
+[15.507s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[15.507s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[15.508s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so
+[15.508s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_c.so" to ""
+[15.509s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so
+[15.509s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_c.so" to ""
+[15.512s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.513s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.516s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/sim_pid.hpp
+[15.516s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.516s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__struct.hpp
+[15.516s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__traits.hpp
+[15.517s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__builder.hpp
+[15.517s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.518s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.518s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.518s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/dds_fastrtps
+[15.518s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_fastrtps_cpp.hpp
+[15.519s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg
+[15.519s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[15.519s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so
+[15.520s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_fastrtps_cpp.so" to ""
+[15.520s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control
+[15.520s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv
+[15.520s] -- Up-to-date: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail
+[15.521s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__type_support.cpp
+[15.521s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/include/msgs_control/msgs_control/srv/detail/sim_pid__rosidl_typesupport_introspection_cpp.hpp
+[15.521s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so
+[15.521s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_introspection_cpp.so" to ""
+[15.521s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so
+[15.522s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_typesupport_cpp.so" to ""
+[15.522s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/pythonpath.sh
+[15.522s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/pythonpath.dsv
+[15.522s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info
+[15.528s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/PKG-INFO
+[15.528s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/top_level.txt
+[15.528s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/SOURCES.txt
+[15.528s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control-0.0.0-py3.10.egg-info/dependency_links.txt
+[15.535s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control
+[15.535s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/libmsgs_control__rosidl_generator_py.so
+[15.535s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_c.c
+[15.536s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.536s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv
+[15.536s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py
+[15.536s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid_s.c
+[15.537s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py
+[15.537s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.537s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/_msgs_control_s.ep.rosidl_typesupport_introspection_c.c
+[15.538s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.538s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py
+[15.538s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.635s] Listing '/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control'...
+[15.635s] Compiling '/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/__init__.py'...
+[15.635s] Listing '/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv'...
+[15.635s] Compiling '/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/__init__.py'...
+[15.636s] Compiling '/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/srv/_sim_pid.py'...
+[15.650s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[15.650s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.651s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[15.651s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.652s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[15.653s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/local/lib/python3.10/dist-packages/msgs_control/msgs_control_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[15.653s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so
+[15.654s] -- Set runtime path of "/home/miguel/ros2_practica_ws/install/msgs_control/lib/libmsgs_control__rosidl_generator_py.so" to ""
+[15.655s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/srv/SimPID.idl
+[15.655s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/srv/SimPID.srv
+[15.656s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/srv/SimPID_Request.msg
+[15.656s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/srv/SimPID_Response.msg
+[15.657s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/ament_index/resource_index/package_run_dependencies/msgs_control
+[15.659s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/ament_index/resource_index/parent_prefix_path/msgs_control
+[15.659s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.sh
+[15.660s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/ament_prefix_path.dsv
+[15.661s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/path.sh
+[15.662s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/environment/path.dsv
+[15.662s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/local_setup.bash
+[15.662s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/local_setup.sh
+[15.663s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/local_setup.zsh
+[15.664s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/local_setup.dsv
+[15.664s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/package.dsv
+[15.665s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/ament_index/resource_index/packages/msgs_control
+[15.666s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport.cmake
+[15.666s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cExport-noconfig.cmake
+[15.667s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport.cmake
+[15.667s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[15.667s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport.cmake
+[15.668s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[15.668s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport.cmake
+[15.671s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cExport-noconfig.cmake
+[15.671s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_cppExport.cmake
+[15.671s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport.cmake
+[15.672s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[15.672s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport.cmake
+[15.672s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[15.673s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport.cmake
+[15.673s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_control__rosidl_typesupport_cppExport-noconfig.cmake
+[15.673s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport.cmake
+[15.674s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/export_msgs_control__rosidl_generator_pyExport-noconfig.cmake
+[15.674s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake-extras.cmake
+[15.675s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.675s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_libraries-extras.cmake
+[15.676s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_targets-extras.cmake
+[15.676s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[15.676s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.677s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[15.677s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig.cmake
+[15.677s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/cmake/msgs_controlConfig-version.cmake
+[15.677s] -- Installing: /home/miguel/ros2_practica_ws/install/msgs_control/share/msgs_control/package.xml
+[15.684s] Invoked command in '/home/miguel/ros2_practica_ws/build/msgs_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/msgs_control

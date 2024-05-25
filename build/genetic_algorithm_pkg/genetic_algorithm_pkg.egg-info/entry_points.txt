@@ -1,0 +1,3 @@
+[console_scripts]
+genetic = genetic_algorithm_pkg.genetic_algorithm_node:main
+

@@ -1,0 +1,36 @@
+[1.660s] Invoking command in '/home/miguel/ros2_practica_ws/src/paquete_lanzador': PYTHONPATH=/home/miguel/ros2_practica_ws/build/paquete_lanzador/prefix_override:/home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paquete_lanzador build --build-base /home/miguel/ros2_practica_ws/build/paquete_lanzador/build install --record /home/miguel/ros2_practica_ws/build/paquete_lanzador/install.log --single-version-externally-managed install_data
+[2.175s] running egg_info
+[2.176s] creating ../../build/paquete_lanzador/paquete_lanzador.egg-info
+[2.176s] writing ../../build/paquete_lanzador/paquete_lanzador.egg-info/PKG-INFO
+[2.177s] writing dependency_links to ../../build/paquete_lanzador/paquete_lanzador.egg-info/dependency_links.txt
+[2.177s] writing entry points to ../../build/paquete_lanzador/paquete_lanzador.egg-info/entry_points.txt
+[2.177s] writing requirements to ../../build/paquete_lanzador/paquete_lanzador.egg-info/requires.txt
+[2.178s] writing top-level names to ../../build/paquete_lanzador/paquete_lanzador.egg-info/top_level.txt
+[2.178s] writing manifest file '../../build/paquete_lanzador/paquete_lanzador.egg-info/SOURCES.txt'
+[2.181s] reading manifest file '../../build/paquete_lanzador/paquete_lanzador.egg-info/SOURCES.txt'
+[2.181s] adding license file 'LICENSE'
+[2.183s] writing manifest file '../../build/paquete_lanzador/paquete_lanzador.egg-info/SOURCES.txt'
+[2.183s] running build
+[2.183s] running build_py
+[2.184s] creating /home/miguel/ros2_practica_ws/build/paquete_lanzador/build
+[2.185s] creating /home/miguel/ros2_practica_ws/build/paquete_lanzador/build/lib
+[2.185s] creating /home/miguel/ros2_practica_ws/build/paquete_lanzador/build/lib/paquete_lanzador
+[2.185s] copying paquete_lanzador/__init__.py -> /home/miguel/ros2_practica_ws/build/paquete_lanzador/build/lib/paquete_lanzador
+[2.186s] running install
+[2.186s] running install_lib
+[2.188s] creating /home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages/paquete_lanzador
+[2.189s] copying /home/miguel/ros2_practica_ws/build/paquete_lanzador/build/lib/paquete_lanzador/__init__.py -> /home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages/paquete_lanzador
+[2.190s] byte-compiling /home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages/paquete_lanzador/__init__.py to __init__.cpython-310.pyc
+[2.190s] running install_data
+[2.191s] creating /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/ament_index
+[2.191s] creating /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/ament_index/resource_index
+[2.192s] creating /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/ament_index/resource_index/packages
+[2.192s] copying resource/paquete_lanzador -> /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/ament_index/resource_index/packages
+[2.192s] copying package.xml -> /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/paquete_lanzador
+[2.193s] creating /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/paquete_lanzador/launch
+[2.193s] copying launch/servidorSim_clienteGenetic_launch.py -> /home/miguel/ros2_practica_ws/install/paquete_lanzador/share/paquete_lanzador/launch
+[2.193s] running install_egg_info
+[2.195s] Copying ../../build/paquete_lanzador/paquete_lanzador.egg-info to /home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages/paquete_lanzador-0.0.0-py3.10.egg-info
+[2.197s] running install_scripts
+[2.229s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/paquete_lanzador/install.log'
+[2.279s] Invoked command in '/home/miguel/ros2_practica_ws/src/paquete_lanzador' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/paquete_lanzador/prefix_override:/home/miguel/ros2_practica_ws/install/paquete_lanzador/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/paquete_lanzador build --build-base /home/miguel/ros2_practica_ws/build/paquete_lanzador/build install --record /home/miguel/ros2_practica_ws/build/paquete_lanzador/install.log --single-version-externally-managed install_data

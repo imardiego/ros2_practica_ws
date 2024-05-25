@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/my_genetic_pkg/my_genetic_pkg.egg-info
+writing ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/requires.txt
+writing top-level names to ../../build/my_genetic_pkg/my_genetic_pkg.egg-info/top_level.txt
+writing manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_genetic_pkg/my_genetic_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build
+creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib
+creating /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+copying my_genetic_pkg/my_genetic_node.py -> /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+copying my_genetic_pkg/__init__.py -> /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg
+running install
+running install_lib
+creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+copying /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg/my_genetic_node.py -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+copying /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build/lib/my_genetic_pkg/__init__.py -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg
+byte-compiling /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg/my_genetic_node.py to my_genetic_node.cpython-310.pyc
+byte-compiling /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index
+creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index
+creating /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index/packages
+copying resource/my_genetic_pkg -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg
+running install_egg_info
+Copying ../../build/my_genetic_pkg/my_genetic_pkg.egg-info to /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages/my_genetic_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing genetic script to /home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/my_genetic_pkg
+writing list of installed files to '/home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log'

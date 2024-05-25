@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from my_messages_control/srv/MySimulatorPID.srv
+// generated code does not contain a copyright notice
+
+
+module my_messages_control {
+  module srv {
+    struct MySimulatorPID_Request {
+      @verbatim (language="comment", text=
+        "estructura de la solicitud de servicio del cliente")
+      float kp;
+
+      float ki;
+
+      float kd;
+    };
+    struct MySimulatorPID_Response {
+      @verbatim (language="comment", text=
+        "estructura de la respuesta de sercicio del servidor")
+      float overshoot;
+
+      float d;
+
+      float ess;
+
+      float ts;
+    };
+  };
+};

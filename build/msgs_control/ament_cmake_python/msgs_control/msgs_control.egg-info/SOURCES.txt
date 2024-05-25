@@ -1,0 +1,6 @@
+setup.py
+msgs_control/__init__.py
+msgs_control.egg-info/PKG-INFO
+msgs_control.egg-info/SOURCES.txt
+msgs_control.egg-info/dependency_links.txt
+msgs_control.egg-info/top_level.txt

@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/paquete_lanzador/paquete_lanzador.egg-info/PKG-INFO
+../../build/paquete_lanzador/paquete_lanzador.egg-info/SOURCES.txt
+../../build/paquete_lanzador/paquete_lanzador.egg-info/dependency_links.txt
+../../build/paquete_lanzador/paquete_lanzador.egg-info/entry_points.txt
+../../build/paquete_lanzador/paquete_lanzador.egg-info/requires.txt
+../../build/paquete_lanzador/paquete_lanzador.egg-info/top_level.txt
+../../build/paquete_lanzador/paquete_lanzador.egg-info/zip-safe
+launch/servidorSim_clienteGenetic_launch.py
+paquete_lanzador/__init__.py
+resource/paquete_lanzador
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

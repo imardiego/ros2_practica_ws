@@ -1,0 +1,19 @@
+# Archivo sim_pid.srv
+
+# estructura de petición del cliente de servicio
+# y recepción de petición del servidor de servicio
+
+float32 kp
+float32 ki
+float32 kd
+
+---
+
+# estructura de respuesta del servidor de servicio
+# y de recepción de respuesta del cliente de servicio
+
+float32 overshoot
+float32 d
+float32 ess
+float32 ts
+

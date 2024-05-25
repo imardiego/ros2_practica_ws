@@ -1,0 +1,279 @@
+[0.260s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.260s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff08cbd6e00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff08cbd6770>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff08cbd6770>>, mixin_verb=('build',))
+[0.576s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.577s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.577s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/miguel/ros2_practica_ws'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[0.598s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extension 'ignore'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_genetic_pkg) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_genetic_pkg' with type 'ros.ament_python' and name 'my_genetic_pkg'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extensions ['ignore', 'ignore_ament_install']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extension 'ignore'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extension 'ignore_ament_install'
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extensions ['colcon_pkg']
+[0.607s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extension 'colcon_pkg'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extensions ['colcon_meta']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extension 'colcon_meta'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extensions ['ros']
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_messages_control) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_messages_control' with type 'ros.ament_cmake' and name 'my_messages_control'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_sim_pkg) by extension 'ros'
+[0.626s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_sim_pkg' with type 'ros.ament_python' and name 'my_sim_pkg'
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.626s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.656s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/miguel/ros2_practica_ws/install
+[0.657s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[0.660s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_args' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_target' from command line to 'None'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.729s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_messages_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.730s] DEBUG:colcon.colcon_core.verb:Building package 'my_messages_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/ros2_practica_ws/build/my_messages_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/ros2_practica_ws/install/my_messages_control', 'merge_install': False, 'path': '/home/miguel/ros2_practica_ws/src/my_messages_control', 'symlink_install': False, 'test_result_base': None}
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.730s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_genetic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.731s] DEBUG:colcon.colcon_core.verb:Building package 'my_genetic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/ros2_practica_ws/build/my_genetic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/ros2_practica_ws/install/my_genetic_pkg', 'merge_install': False, 'path': '/home/miguel/ros2_practica_ws/src/my_genetic_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.731s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_target' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.732s] Level 5:colcon.colcon_core.verb:set package 'my_sim_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.732s] DEBUG:colcon.colcon_core.verb:Building package 'my_sim_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/miguel/ros2_practica_ws/build/my_sim_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/miguel/ros2_practica_ws/install/my_sim_pkg', 'merge_install': False, 'path': '/home/miguel/ros2_practica_ws/src/my_sim_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.732s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.734s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.734s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/miguel/ros2_practica_ws/src/my_messages_control' with build type 'ament_cmake'
+[0.734s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/miguel/ros2_practica_ws/src/my_messages_control'
+[0.739s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.739s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.739s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/ros2_practica_ws/build/my_messages_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/my_messages_control -- -j4 -l4
+[1.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/ros2_practica_ws/build/my_messages_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --build /home/miguel/ros2_practica_ws/build/my_messages_control -- -j4 -l4
+[1.629s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/ros2_practica_ws/build/my_messages_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/my_messages_control
+[1.769s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_messages_control)
+[1.784s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control' for CMake module files
+[1.790s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control' for CMake config files
+[1.792s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/ros2_practica_ws/build/my_messages_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/miguel/ros2_practica_ws/install/my_sim_pkg:/home/miguel/ros2_practica_ws/install/my_genetic_pkg:/opt/ros/humble WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/cmake --install /home/miguel/ros2_practica_ws/build/my_messages_control
+[1.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages_control', 'cmake_prefix_path')
+[1.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.ps1'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.dsv'
+[1.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.sh'
+[1.796s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib'
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages_control', 'ld_library_path_lib')
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.ps1'
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.dsv'
+[1.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.sh'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/bin'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib/pkgconfig/my_messages_control.pc'
+[1.799s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib/python3.10/site-packages'
+[1.800s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/bin'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.ps1'
+[1.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.dsv'
+[1.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.sh'
+[1.804s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.bash'
+[1.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.zsh'
+[1.806s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/ros2_practica_ws/install/my_messages_control/share/colcon-core/packages/my_messages_control)
+[1.881s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_messages_control)
+[1.882s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control' for CMake module files
+[1.883s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control' for CMake config files
+[1.885s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages_control', 'cmake_prefix_path')
+[1.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.ps1'
+[1.886s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.dsv'
+[1.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/cmake_prefix_path.sh'
+[1.888s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib'
+[1.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_messages_control', 'ld_library_path_lib')
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.ps1'
+[1.889s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.dsv'
+[1.891s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/hook/ld_library_path_lib.sh'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/bin'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib/pkgconfig/my_messages_control.pc'
+[1.892s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/lib/python3.10/site-packages'
+[1.893s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_messages_control/bin'
+[1.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.ps1'
+[1.895s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.dsv'
+[1.896s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.sh'
+[1.898s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.bash'
+[1.899s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_messages_control/share/my_messages_control/package.zsh'
+[1.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/ros2_practica_ws/install/my_messages_control/share/colcon-core/packages/my_messages_control)
+[1.901s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg' with build type 'ament_python'
+[1.902s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_genetic_pkg', 'ament_prefix_path')
+[1.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/ament_prefix_path.ps1'
+[1.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/ament_prefix_path.dsv'
+[1.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/ament_prefix_path.sh'
+[1.906s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.906s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.912s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/miguel/ros2_practica_ws/src/my_sim_pkg' with build type 'ament_python'
+[1.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_sim_pkg', 'ament_prefix_path')
+[1.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/ament_prefix_path.ps1'
+[1.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/ament_prefix_path.dsv'
+[1.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/ament_prefix_path.sh'
+[1.920s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.921s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.540s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg'
+[2.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.070s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/miguel/ros2_practica_ws/src/my_sim_pkg'
+[3.071s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_genetic_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_genetic_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log --single-version-externally-managed install_data
+[4.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/miguel/ros2_practica_ws/src/my_sim_pkg': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_sim_pkg/install.log --single-version-externally-managed install_data
+[4.726s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg' for CMake module files
+[4.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/ros2_practica_ws/src/my_genetic_pkg' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_genetic_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_genetic_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_genetic_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_genetic_pkg/install.log --single-version-externally-managed install_data
+[4.728s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg' for CMake config files
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/bin'
+[4.730s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/pkgconfig/my_genetic_pkg.pc'
+[4.731s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/lib/python3.10/site-packages'
+[4.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_genetic_pkg', 'pythonpath')
+[4.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/pythonpath.ps1'
+[4.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/pythonpath.dsv'
+[4.732s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/hook/pythonpath.sh'
+[4.734s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/bin'
+[4.734s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_genetic_pkg)
+[4.735s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/package.ps1'
+[4.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/package.dsv'
+[4.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/package.sh'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/package.bash'
+[4.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/my_genetic_pkg/package.zsh'
+[4.739s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/ros2_practica_ws/install/my_genetic_pkg/share/colcon-core/packages/my_genetic_pkg)
+[4.808s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg' for CMake module files
+[4.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/miguel/ros2_practica_ws/src/my_sim_pkg' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/my_sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/my_sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/my_sim_pkg/install.log --single-version-externally-managed install_data
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg' for CMake config files
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib'
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg/bin'
+[4.812s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/pkgconfig/my_sim_pkg.pc'
+[4.812s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg/lib/python3.10/site-packages'
+[4.812s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_sim_pkg', 'pythonpath')
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/pythonpath.ps1'
+[4.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/pythonpath.dsv'
+[4.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/hook/pythonpath.sh'
+[4.815s] Level 1:colcon.colcon_core.environment:checking '/home/miguel/ros2_practica_ws/install/my_sim_pkg/bin'
+[4.815s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_sim_pkg)
+[4.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/package.ps1'
+[4.816s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/package.dsv'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/package.sh'
+[4.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/package.bash'
+[4.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/my_sim_pkg/package.zsh'
+[4.819s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/miguel/ros2_practica_ws/install/my_sim_pkg/share/colcon-core/packages/my_sim_pkg)
+[4.819s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.820s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.821s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.821s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.908s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.909s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.909s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.909s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[4.909s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/ros2_practica_ws/install/local_setup.ps1'
+[4.913s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/miguel/ros2_practica_ws/install/_local_setup_util_ps1.py'
+[4.917s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/ros2_practica_ws/install/setup.ps1'
+[4.920s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/ros2_practica_ws/install/local_setup.sh'
+[4.921s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/miguel/ros2_practica_ws/install/_local_setup_util_sh.py'
+[4.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/ros2_practica_ws/install/setup.sh'
+[4.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/ros2_practica_ws/install/local_setup.bash'
+[4.929s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/ros2_practica_ws/install/setup.bash'
+[4.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/miguel/ros2_practica_ws/install/local_setup.zsh'
+[4.934s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/miguel/ros2_practica_ws/install/setup.zsh'

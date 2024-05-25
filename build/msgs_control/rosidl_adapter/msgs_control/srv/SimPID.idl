@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from msgs_control/srv/SimPID.srv
+// generated code does not contain a copyright notice
+
+
+module msgs_control {
+  module srv {
+    @verbatim (language="comment", text=
+      "Archivo sim_pid.srv")
+    struct SimPID_Request {
+      @verbatim (language="comment", text=
+        "estructura de petición del cliente de servicio" "\n"
+        "y recepción de petición del servidor de servicio")
+      float kp;
+
+      float ki;
+
+      float kd;
+    };
+    struct SimPID_Response {
+      @verbatim (language="comment", text=
+        "estructura de respuesta del servidor de servicio" "\n"
+        "y de recepción de respuesta del cliente de servicio")
+      float overshoot;
+
+      float d;
+
+      float ess;
+
+      float ts;
+    };
+  };
+};
