@@ -57,9 +57,9 @@ class Genetico:
         #P.Init(velocidad, Velocidad_de_referencia)
         #overshoot, d, Ess, Ts = P.Calcula_indexes()
         
-        Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
+        #Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
-        print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
+        #print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
         # MIRAR INIT SELF.W
         # LEER EL ARTICULO PARA MEJORAR
         return Fitness

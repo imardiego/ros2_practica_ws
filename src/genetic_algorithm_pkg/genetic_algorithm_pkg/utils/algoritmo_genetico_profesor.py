@@ -12,16 +12,18 @@ class Genetico:
     def set_request(self,instance_client):
         self.request = instance_client
         
-    def llamada_control(self, Gen_Kp, Gen_Ki, Gen_Kd):   
+    def llamada_control(self, Gen_Kp, Gen_Ki, Gen_Kd): 
+        
+        Kp=Gen_Kp
+        Ki=Gen_Ki
+        Kd=Gen_Kd
+         
         response = self.request.send_request(Gen_Kp, Gen_Ki, Gen_Kd)
         o =response.overshoot 
         d =response.d
         ess = response.ess
         ts = response.ts
         
-        Kp=Gen_Kp
-        Ki=Gen_Ki
-        Kd=Gen_Kd
         
         # PONER MENSAJE
         self.request.get_logger().info(
@@ -57,9 +59,9 @@ class Genetico:
         #P.Init(velocidad, Velocidad_de_referencia)
         #overshoot, d, Ess, Ts = P.Calcula_indexes()
         
-        Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
+        #Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
-        print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
+        #print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
         # MIRAR INIT SELF.W
         # LEER EL ARTICULO PARA MEJORAR
         return Fitness
