@@ -26,8 +26,9 @@ class Genetico:
         
         
         # PONER MENSAJE
+        print("Kp:", Kp, "Ki:",Ki, "Kd:", Kd)
         self.request.get_logger().info(
-            'Llamada control: Result from server to this three parameters: for Kp= %d  Ki=%d Kd= %d \n Overshoot= %d d= %d Ess= %d ts= %d' %
+            'Llamada control: Result from server to this three parameters: for Kp= %f  Ki=%f Kd= %f \n Overshoot= %f d= %f Ess= %f ts= %f' %
                                                                                                 (Kp, Ki, Kd , o, d, ess, ts))
         # Crear una instancia del controlador
         #controller = Controller()
@@ -61,6 +62,11 @@ class Genetico:
         
         #Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
+        
+        print("o:",o, "peso:",self.w[2])
+        print("d:",d, "peso:",self.w[1])
+        print("ess:",ess, "peso:",self.w[3])
+        print("ts:",ts, "peso:",self.w[0])
         #print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
         # MIRAR INIT SELF.W
         # LEER EL ARTICULO PARA MEJORAR
@@ -112,6 +118,9 @@ class Genetico:
     
     # Algoritmo genético
     def genetic_algorithm(self, population_size, chromosome_length, generations, mutation_rate, crossover_rate):
+        
+        print("Poblacion:", population_size, "Cromosomas:", chromosome_length, "Generaciones:", generations, "Mutacion:", mutation_rate, "Emparejamiento:",crossover_rate)
+    
         population = []
         for _ in range(population_size):
             chromosome = self.generate_random_chromosome(chromosome_length)

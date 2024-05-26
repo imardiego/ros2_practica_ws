@@ -104,10 +104,13 @@ def main():
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
     print("Poblacion:", poblacion, "Cromosomas:", cromosomas, "Generaciones:", generaciones, "Mutacion:", mutacion, "Emparejamiento:",emparejamiento)
-   
+    input("hola")
     # ZONA EJECUCIÓN ALGORTIMO GENETICO
-    indexes_client.mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
-    indexes_client.get_logger().info('Mejor cromosoma' % indexes_client.mejor_cromosoma) 
+   
+    mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
+    
+    print("Mejor cromosoma:", mejor_cromosoma)
+    #indexes_client.get_logger().info('Mejor cromosoma' % print(indexes_client.mejor_cromosoma)) 
     # mensaje dese aquí 
     # info del mejor cromosoma
     

@@ -27,9 +27,9 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('my_parameter', 'world')
         
         #ZONA DE DECLARACION DE PARAMETROS AG  
-        self.declare_parameter('population_size', 100)
+        self.declare_parameter('population_size', 50)
         self.declare_parameter('chromosome_length',3)
-        self.declare_parameter('generations',500)
+        self.declare_parameter('generations',50)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
                 
@@ -104,10 +104,13 @@ def main():
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
     print("Poblacion:", poblacion, "Cromosomas:", cromosomas, "Generaciones:", generaciones, "Mutacion:", mutacion, "Emparejamiento:",emparejamiento)
-   
+    input("hola")
     # ZONA EJECUCIÓN ALGORTIMO GENETICO
+   
     mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
-    indexes_client.get_logger().info('Mejor cromosoma' % mejor_cromosoma) 
+    
+    print("Mejor cromosoma:", mejor_cromosoma)
+    #indexes_client.get_logger().info('Mejor cromosoma' % print(indexes_client.mejor_cromosoma)) 
     # mensaje dese aquí 
     # info del mejor cromosoma
     
