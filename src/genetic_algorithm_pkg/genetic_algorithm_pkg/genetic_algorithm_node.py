@@ -21,6 +21,7 @@ class GeneticIndexesClient(Node):
         # cambio de parámetros leyendo de un topic
         self.subscription = self.create_subscription(String,'miguel', self.listener_callback,10)
         
+        # ZONA DE DECLARACIÓN DE PARAMTEROS DE PRUEBA
         # declaración de parámetro para pruebas de cambio de valor
         # en tiempo de ejecución
         self.declare_parameter('my_parameter', 'world')
@@ -89,10 +90,20 @@ def main():
     
     # Seteo como objeto de AG a indexes_client
     indexes_client.AG.set_request(indexes_client)
-    #indexes_client.AG.llamada_control(335.0,336.0,337.0)
+    indexes_client.AG.llamada_control(335.0,336.0,337.0)
    
-    # hay que hacer esto para todos los parámetros
-    #indexes_client.poblacion=indexes_client.get_parameter('population_size').get_parameter_value().string_value
+    # ZONA DE OBTENCION DE PARÁMETROS
+    # el parámetro se inicializó en su declaración, pero si ha habido un lanzamiento con parámetros
+    # o si ha habido una llegada de parámatros por topic, estos alteran el valor inicial del parámetro
+    # si no se ha producido ninguno, la solicitar el valor del parámetro y depositarlo en una variable
+    # éste será de la declaración inicial del parámetro.      
+    poblacion=indexes_client.get_parameter('population_size').get_parameter_value().integer_value
+    cromosomas=indexes_client.get_parameter('chromosome_length').get_parameter_value().integer_value
+    generaciones=indexes_client.get_parameter('generations').get_parameter_value().integer_value
+    mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().float_value
+    emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().float_value
+    
+    print("Poblacion:", poblacion, "Cromosomas:", cromosomas, "Generaciones:", generaciones, "Mutacion:", mutacion, "Emparejamiento:",emparejamiento)
    
     # hay que llamar al algoritmo genético con todos los parámetros del profe
     # mejor_cromosoma=indexex_client.genetic_algorithm(poblacion, cromosomas, generaciones, mutation, emparejamiento)
@@ -104,8 +115,8 @@ def main():
    
     # bucle de dos iteraciones para imitiar el algoritmo genético
     # que realiza una petición por cada individuo enviando kp, ki, kd
-    generaciones=2
-    for generacion in range(generaciones):
+    num_generaciones=2
+    for generacion in range(num_generaciones):
         
         # se solicita el valor del parámetro my_parameter, si no ha llegado por fichero de inicialización
         # o no se ha cambiado por la llegada de un valor por el topioc de arriba, conserva el valor que 

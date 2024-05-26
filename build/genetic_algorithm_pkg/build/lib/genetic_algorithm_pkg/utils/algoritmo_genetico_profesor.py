@@ -9,8 +9,8 @@ class Genetico:
         self.Fitness = 0;
         self.w = (25., .6, 200., 15.) # weight of ts, d, overshot, ess 
         
-    def set_request(self,request):
-        self.request = request
+    def set_request(self,instance_client):
+        self.request = instance_client
         
     def llamada_control(self, Gen_Kp, Gen_Ki, Gen_Kd):   
         response = self.request.send_request(Gen_Kp, Gen_Ki, Gen_Kd)
@@ -18,6 +18,15 @@ class Genetico:
         d =response.d
         ess = response.ess
         ts = response.ts
+        
+        Kp=Gen_Kp
+        Ki=Gen_Ki
+        Kd=Gen_Kd
+        
+        # PONER MENSAJE
+        self.request.get_logger().info(
+            'Llamada control: Result from server to this three parameters: for Kp= %d  Ki=%d Kd= %d \n Overshoot= %d d= %d Ess= %d ts= %d' %
+                                                                                                (Kp, Ki, Kd , o, d, ess, ts))
         # Crear una instancia del controlador
         #controller = Controller()
         #Kp=Gen_Kp
@@ -47,9 +56,10 @@ class Genetico:
         #P = Performance() 
         #P.Init(velocidad, Velocidad_de_referencia)
         #overshoot, d, Ess, Ts = P.Calcula_indexes()
-        print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts)
+        
         Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
-    #Fitness= overshoot * self.w[2] + d * self.w[1] + Ess * self.w[3] + Ts * self.w[0]
+        Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
+        print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
         # MIRAR INIT SELF.W
         # LEER EL ARTICULO PARA MEJORAR
         return Fitness
