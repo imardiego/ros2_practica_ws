@@ -100,8 +100,8 @@ def main():
     poblacion=indexes_client.get_parameter('population_size').get_parameter_value().integer_value
     cromosomas=indexes_client.get_parameter('chromosome_length').get_parameter_value().integer_value
     generaciones=indexes_client.get_parameter('generations').get_parameter_value().integer_value
-    mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().float_value
-    emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().float_value
+    mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
+    emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
     print("Poblacion:", poblacion, "Cromosomas:", cromosomas, "Generaciones:", generaciones, "Mutacion:", mutacion, "Emparejamiento:",emparejamiento)
    
