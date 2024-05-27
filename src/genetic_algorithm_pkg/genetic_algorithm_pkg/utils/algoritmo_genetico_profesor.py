@@ -17,7 +17,8 @@ class Genetico:
         Kp=Gen_Kp
         Ki=Gen_Ki
         Kd=Gen_Kd
-               
+        # quizás puedo añadir un parámetro más que sea el número de cromosoma para controlar valores 
+        # que llegan al servidor y que el servidor responda con el valor del cromosoma y quizás también generación.        
         response = self.request.send_request(Kp, Ki, Kd)
         o =response.overshoot 
         d =response.d
@@ -85,7 +86,8 @@ class Genetico:
         for _ in range(population_size):
             chromosome = self.generate_random_chromosome(chromosome_length)
             population.append(chromosome)
-            
+        
+        # aquí puedo imprimir los valores kp,ki,kd de una población de 50 y comprobar.     
         self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % (population_size, chromosome_length))
         
         for generation in range(generations): 
