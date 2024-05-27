@@ -27,9 +27,9 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('my_parameter', 'world')
         
         #ZONA DE DECLARACION DE PARAMETROS AG  
-        self.declare_parameter('population_size', 100)
+        self.declare_parameter('population_size', 50)
         self.declare_parameter('chromosome_length',3)
-        self.declare_parameter('generations',200)
+        self.declare_parameter('generations',50)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
                 
@@ -91,8 +91,7 @@ def main():
       
     # Seteo como objeto de AG a indexes_client
     indexes_client.AG.set_request(indexes_client)
-    #indexes_client.AG.llamada_control(335.0,336.0,337.0)
-   
+       
     # ZONA DE OBTENCION DE PARÁMETROS
     # el parámetro se inicializó en su declaración, pero si ha habido un lanzamiento con parámetros
     # o si ha habido una llegada de parámatros por topic, estos alteran el valor inicial del parámetro
@@ -105,7 +104,7 @@ def main():
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
     indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO' ) 
-    indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutacion: %f Emparejamiento: %f' % 
+    indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutación: %f Emparejamiento: %f' % 
                                                         (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 
     
     # ZONA  DE INTERACCIÓN CON EL USUARIO

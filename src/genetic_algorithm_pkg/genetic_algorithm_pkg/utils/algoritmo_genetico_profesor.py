@@ -17,12 +17,8 @@ class Genetico:
         Kp=Gen_Kp
         Ki=Gen_Ki
         Kd=Gen_Kd
-        o=0.0
-        d=0.0
-        ess=0.0
-        ts=0.0
-         
-        response = self.request.send_request(Gen_Kp, Gen_Ki, Gen_Kd)
+               
+        response = self.request.send_request(Kp, Ki, Kd)
         o =response.overshoot 
         d =response.d
         ess = response.ess

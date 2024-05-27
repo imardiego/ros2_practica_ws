@@ -17,12 +17,8 @@ class Genetico:
         Kp=Gen_Kp
         Ki=Gen_Ki
         Kd=Gen_Kd
-        o=0.0
-        d=0.0
-        ess=0.0
-        ts=0.0
-         
-        response = self.request.send_request(Gen_Kp, Gen_Ki, Gen_Kd)
+               
+        response = self.request.send_request(Kp, Ki, Kd)
         o =response.overshoot 
         d =response.d
         ess = response.ess
@@ -36,13 +32,6 @@ class Genetico:
              
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
         
-        print("o:",o, "peso:",self.w[2])
-        print("d:",d, "peso:",self.w[1])
-        print("ess:",ess, "peso:",self.w[3])
-        print("ts:",ts, "peso:",self.w[0])
-        #print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
-        # MIRAR INIT SELF.W
-        # LEER EL ARTICULO PARA MEJORAR
         return Fitness
 
     
