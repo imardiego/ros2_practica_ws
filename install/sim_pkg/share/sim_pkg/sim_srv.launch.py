@@ -7,8 +7,7 @@ def generate_launch_description():
             package='sim_pkg',  
             executable='simulator', 
             output='screen',
-            # kp, ki, kd
-            arguments=['0.1888', '0.0598', '0.0011'],         
+               
         )
     ])
    

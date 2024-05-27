@@ -63,7 +63,7 @@ class SimPIDService(Node):
         self.velocidad.clear()
         self.ut.clear()
         self.coordenadax.clear()
-
+        #self.get_logger().info('Outcoming response overshoot: %f d: %f ess: %f ts: %f' % (overshoot,d,ess,Ts))
         return response
 
 

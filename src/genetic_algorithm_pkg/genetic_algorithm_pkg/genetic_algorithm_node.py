@@ -42,6 +42,7 @@ class GeneticIndexesClient(Node):
         # avisa de que el servidor no está activo
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
+            self.get_logger().info('si el nodo servidor no está levantado, levántalo!!')
             
         # cuando el servidor esté activo instancia 
         # la interfaz de comunicación
@@ -103,25 +104,26 @@ def main():
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
-    print("Poblacion:", poblacion, "Cromosomas:", cromosomas, "Generaciones:", generaciones, "Mutacion:", mutacion, "Emparejamiento:",emparejamiento)
-    input("hola")
+    indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO\n' ) 
+    indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutacion: %f Emparejamiento: %f' % 
+                                                        (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 
+    
+    # ZONA  DE INTERACCIÓN CON EL USUARIO
+    input("Pulsa Enter para ejecutar el algoritmo genético!!")
     # ZONA EJECUCIÓN ALGORTIMO GENETICO
-   
     mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
     
-    print("Mejor cromosoma:", mejor_cromosoma)
-    indexes_client.get_logger().info('Mejor cromosoma' % str(mejor_cromosoma)) 
-    # mensaje dese aquí 
-    # info del mejor cromosoma
+    # ZONA FINALIZACIÓN ALGORITMO GENÉTICO
+    indexes_client.get_logger().info('Mejor cromosoma: %s' % str(mejor_cromosoma)) 
     
-    # ver si puedo hacer topic para pintar
-    
-    # bucle de dos iteraciones para imitiar el algoritmo genético
-    # que realiza una petición por cada individuo enviando kp, ki, kd
-
-    
-    # cuando el cliente acaba de necesitar el servicio
-    # se destruye
+    # ZONA DE DESTRUCCIÓN DEL NODO CLIENTE    
+    # cuando el cliente acaba de necesitar el servicio se destruye
+    # Podría meter esto en un try except, de modo que preguntase
+    # al usuario si quiere volver a ejecutar el nodo
+    # no obstante, debido a los problemas encontrados para cambiar de parámetros en 
+    # tiempo de ejecución, explicados en el punto 4.7.1, no veo necesidad de mantener el nodo 
+    # "corriendo", prefiero preparar distintos ficheros de inicialización de parámetros con 
+    # distintos valroes
     indexes_client.destroy_node() 
     rclpy.shutdown() 
 

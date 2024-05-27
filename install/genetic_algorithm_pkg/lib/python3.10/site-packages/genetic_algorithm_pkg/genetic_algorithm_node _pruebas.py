@@ -101,7 +101,7 @@ def main():
         # utilizo los índices de rendimiento o,d, Ess, ts del response para generar un aviso en el que se informa
         # la respuesta con o, d, Ess, ts, con la petición de servicio con kp, ki, kd
         minimal_client.get_logger().info(
-            'Result from server to this three parameters: for Kp= %d  Ki=%d Kd= %d \n Overshoot= %d d= %d Ess= %d ts= %d' %
+            'Result from server to this three parameters: for Kp= %f  Ki=%f Kd= %f \n Overshoot= %f d= %f Ess= %f ts= %f' %
             (float(sys.argv[1])+ generacion, float(sys.argv[2])+ generacion, float(sys.argv[3])+ generacion, response.overshoot, response.d, 
                                                                                                                  response.ess, response.ts))
 

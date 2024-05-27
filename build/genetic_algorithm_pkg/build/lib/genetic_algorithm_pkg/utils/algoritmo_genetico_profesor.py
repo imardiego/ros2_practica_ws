@@ -17,6 +17,10 @@ class Genetico:
         Kp=Gen_Kp
         Ki=Gen_Ki
         Kd=Gen_Kd
+        o=0.0
+        d=0.0
+        ess=0.0
+        ts=0.0
          
         response = self.request.send_request(Gen_Kp, Gen_Ki, Gen_Kd)
         o =response.overshoot 
@@ -25,42 +29,11 @@ class Genetico:
         ts = response.ts
         
         
-        # PONER MENSAJE
-        print("Kp:", Kp, "Ki:",Ki, "Kd:", Kd)
+        # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
         self.request.get_logger().info(
-            'Llamada control: Result from server to this three parameters: for Kp= %f  Ki=%f Kd= %f \n Overshoot= %f d= %f Ess= %f ts= %f' %
-                                                                                                (Kp, Ki, Kd , o, d, ess, ts))
-        # Crear una instancia del controlador
-        #controller = Controller()
-        #Kp=Gen_Kp
-        #Ki=Gen_Ki
-        #Kd=Gen_Kd
-        #velocidad=[]
-        #ut=[]
-        #coordenadax=[]
-        #Velocidad_de_referencia = 50.0
-        #overshoot = 0.0
-        #d=0.0
-        #Ess=0.0
-        #Ts = 0.0
-        
-        # Inicializar el controlador con los valores de ganancia
-        #controller.Init(Kp, Ki, Kd)
-        
-        # Establecer la velocidad de referencia
-        #controller.Set_reference(Velocidad_de_referencia)
-
-        # Ejecutar 320 ciclos del controlador
-        #for ite in range(320):
-        #    x,y = controller.Exec_controller_cycle()
-        #    velocidad.append(x)
-            
-        #Cálculo de los índices de rendimiento
-        #P = Performance() 
-        #P.Init(velocidad, Velocidad_de_referencia)
-        #overshoot, d, Ess, Ts = P.Calcula_indexes()
-        
-        #Fitness = 0 # Aquí se debe implementar la función de fitness correspondiente
+            'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
+                                                                                    (Kp, Ki, Kd , o, d, ess, ts))
+             
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
         
         print("o:",o, "peso:",self.w[2])
@@ -118,25 +91,31 @@ class Genetico:
     
     # Algoritmo genético
     def genetic_algorithm(self, population_size, chromosome_length, generations, mutation_rate, crossover_rate):
-        
-        print("Poblacion:", population_size, "Cromosomas:", chromosome_length, "Generaciones:", generations, "Mutacion:", mutation_rate, "Emparejamiento:",crossover_rate)
-    
+           
         population = []
         for _ in range(population_size):
             chromosome = self.generate_random_chromosome(chromosome_length)
             population.append(chromosome)
-       
-        for generation in range(generations):            
-            # Evaluación de la población
+            
+        self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % (population_size, chromosome_length))
+        
+        for generation in range(generations): 
+                    
+            self.request.get_logger().info('Comienzo de petición de índices para cada cromosoma de la generación %d .' % (generation)) 
+            
             evaluated_population = [(chromosome, self.evaluate(chromosome)) for chromosome in population]
+            
+            self.request.get_logger().info('Se ha evaluado la población de la generación  %d .' % (generation)) 
 
             # Selección de padres mediante torneo de longitud T
             parents = []
             T=8 # Se seleccionan 8 cromosomas de manera aleatoria pra el torneo. Nos quedaremos con el de menor función de fitness
+            self.request.get_logger().info('Selección por torneo con T= %d de los padres de la generación %d .' % (generation,T))
             parents = self.selection_tournament(population_size, evaluated_population, T)
 
             # Cruzamiento y mutación para generar descendencia
             offspring = []
+            self.request.get_logger().info('Comienza emparejamiento y mutación de los padres de la generación %d .' % (generation))
             for i in range(0, population_size, 2):
                 parent1 = parents[i]
                 parent2 = parents[i + 1]
@@ -145,10 +124,11 @@ class Genetico:
                 mutated_child1 = self.mutate(child1, mutation_rate)
                 mutated_child2 = self.mutate(child2, mutation_rate)
                 offspring.extend([mutated_child1, mutated_child2])
-
+            self.request.get_logger().info('Termina emparejamiento y mutación de los padres de la generación %d .' % (generation)) 
             # Reemplazar la población anterior con la descendencia
             population = offspring
-
+            self.request.get_logger().info('Obtenida una nueva población tras la ejecución de la generación %d .' % (generation))
+            
         # Devolver el mejor cromosoma de la última generación
         best_chromosome = min(evaluated_population, key=lambda x: x[1])#[0]
         return best_chromosome
