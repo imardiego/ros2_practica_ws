@@ -36,7 +36,7 @@ class SimPIDService(Node):
  
         # Añado una línea para avisar por pantalla que se ha recibido
         # una petición en este servidor, informando de los argumentos
-        self.get_logger().info('Incoming request\nkp: %f ki: %f kd: %f' % (Kp, Ki, Kd))
+        self.get_logger().info('Incoming request kp= %f ki= %f kd= %f' % (Kp, Ki, Kd))
 
         # Initialize the controller with the provided gains
         self.controller.Init(Kp, Ki, Kd)
@@ -63,7 +63,7 @@ class SimPIDService(Node):
         self.velocidad.clear()
         self.ut.clear()
         self.coordenadax.clear()
-        #self.get_logger().info('Outcoming response overshoot: %f d: %f ess: %f ts: %f' % (overshoot,d,ess,Ts))
+        self.get_logger().info('Outcoming response:  overshoot= %f d= %f ess= %f ts= %f' % (overshoot,d,ess,Ts))
         return response
 
 

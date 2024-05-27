@@ -100,9 +100,7 @@ class Genetico:
         self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % (population_size, chromosome_length))
         
         for generation in range(generations): 
-                    
-            self.request.get_logger().info('Comienzo de petición de índices para cada cromosoma de la generación %d .' % (generation)) 
-            
+                               
             evaluated_population = [(chromosome, self.evaluate(chromosome)) for chromosome in population]
             
             self.request.get_logger().info('Se ha evaluado la población de la generación  %d .' % (generation)) 
@@ -110,12 +108,12 @@ class Genetico:
             # Selección de padres mediante torneo de longitud T
             parents = []
             T=8 # Se seleccionan 8 cromosomas de manera aleatoria pra el torneo. Nos quedaremos con el de menor función de fitness
-            self.request.get_logger().info('Selección por torneo con T= %d de los padres de la generación %d .' % (T, generation))
+            
             parents = self.selection_tournament(population_size, evaluated_population, T)
 
             # Cruzamiento y mutación para generar descendencia
             offspring = []
-            self.request.get_logger().info('Comienza emparejamiento y mutación de los padres de la generación %d .' % (generation))
+            
             for i in range(0, population_size, 2):
                 parent1 = parents[i]
                 parent2 = parents[i + 1]
@@ -124,10 +122,10 @@ class Genetico:
                 mutated_child1 = self.mutate(child1, mutation_rate)
                 mutated_child2 = self.mutate(child2, mutation_rate)
                 offspring.extend([mutated_child1, mutated_child2])
-            self.request.get_logger().info('Termina emparejamiento y mutación de los padres de la generación %d .' % (generation)) 
+            
             # Reemplazar la población anterior con la descendencia
             population = offspring
-            self.request.get_logger().info('Obtenida una nueva población tras la ejecución de la generación %d .' % (generation))
+            self.request.get_logger().info('Se termina la generación %d.' % (generation))
             
         # Devolver el mejor cromosoma de la última generación
         best_chromosome = min(evaluated_population, key=lambda x: x[1])#[0]

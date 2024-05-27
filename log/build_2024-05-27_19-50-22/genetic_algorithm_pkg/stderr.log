@@ -1,0 +1,5 @@
+  File "/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/algoritmo_genetico_profesor.py", line 104
+    self.request.get_logger().info('Comienzo de petición de índices para cada cromosoma de la generación %d .' % (0 if generation==0 else generation-1) 
+                                  ^
+SyntaxError: '(' was never closed
+

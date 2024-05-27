@@ -88,7 +88,7 @@ def main():
     rclpy.init()
     # instanciacion de la clase declarada arriba.
     indexes_client =GeneticIndexesClient()
-    
+      
     # Seteo como objeto de AG a indexes_client
     indexes_client.AG.set_request(indexes_client)
     #indexes_client.AG.llamada_control(335.0,336.0,337.0)

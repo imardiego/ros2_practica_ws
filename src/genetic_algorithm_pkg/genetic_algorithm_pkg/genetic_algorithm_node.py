@@ -27,9 +27,9 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('my_parameter', 'world')
         
         #ZONA DE DECLARACION DE PARAMETROS AG  
-        self.declare_parameter('population_size', 50)
+        self.declare_parameter('population_size', 100)
         self.declare_parameter('chromosome_length',3)
-        self.declare_parameter('generations',50)
+        self.declare_parameter('generations',200)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
                 
@@ -88,7 +88,7 @@ def main():
     rclpy.init()
     # instanciacion de la clase declarada arriba.
     indexes_client =GeneticIndexesClient()
-    
+      
     # Seteo como objeto de AG a indexes_client
     indexes_client.AG.set_request(indexes_client)
     #indexes_client.AG.llamada_control(335.0,336.0,337.0)
