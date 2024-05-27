@@ -110,7 +110,7 @@ def main():
     mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
     
     print("Mejor cromosoma:", mejor_cromosoma)
-    #indexes_client.get_logger().info('Mejor cromosoma' % print(indexes_client.mejor_cromosoma)) 
+    indexes_client.get_logger().info('Mejor cromosoma' % str(mejor_cromosoma)) 
     # mensaje dese aquí 
     # info del mejor cromosoma
     

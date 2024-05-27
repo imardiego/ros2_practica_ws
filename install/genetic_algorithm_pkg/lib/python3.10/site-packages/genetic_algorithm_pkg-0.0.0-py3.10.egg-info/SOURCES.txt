@@ -11,6 +11,7 @@ setup.py
 ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/zip-safe
 genetic_algorithm_pkg/__init__.py
 genetic_algorithm_pkg/genetic_algorithm_node _1on.py
+genetic_algorithm_pkg/genetic_algorithm_node _pruebas.py
 genetic_algorithm_pkg/genetic_algorithm_node.py
 genetic_algorithm_pkg/genetic_algorithm_node_2on.py
 genetic_algorithm_pkg/genetic_algorithm_prueba_node.py
