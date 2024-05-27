@@ -104,7 +104,7 @@ def main():
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
-    indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO\n' ) 
+    indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO' ) 
     indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutacion: %f Emparejamiento: %f' % 
                                                         (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 
     

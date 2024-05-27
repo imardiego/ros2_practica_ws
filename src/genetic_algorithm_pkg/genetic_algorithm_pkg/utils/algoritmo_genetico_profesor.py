@@ -36,13 +36,6 @@ class Genetico:
              
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
         
-        print("o:",o, "peso:",self.w[2])
-        print("d:",d, "peso:",self.w[1])
-        print("ess:",ess, "peso:",self.w[3])
-        print("ts:",ts, "peso:",self.w[0])
-        #print("overshoot:",o, "d:",d, "ess:",ess, "ts:",ts, "pesos:",self.w, Fitness)
-        # MIRAR INIT SELF.W
-        # LEER EL ARTICULO PARA MEJORAR
         return Fitness
 
     

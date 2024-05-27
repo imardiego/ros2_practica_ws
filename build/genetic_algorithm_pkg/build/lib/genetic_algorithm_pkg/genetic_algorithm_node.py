@@ -27,9 +27,9 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('my_parameter', 'world')
         
         #ZONA DE DECLARACION DE PARAMETROS AG  
-        self.declare_parameter('population_size', 50)
+        self.declare_parameter('population_size', 100)
         self.declare_parameter('chromosome_length',3)
-        self.declare_parameter('generations',50)
+        self.declare_parameter('generations',200)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
                 
@@ -104,7 +104,7 @@ def main():
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
-    indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO\n' ) 
+    indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO' ) 
     indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutacion: %f Emparejamiento: %f' % 
                                                         (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 
     

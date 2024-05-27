@@ -125,7 +125,7 @@ class Genetico:
             
             # Reemplazar la población anterior con la descendencia
             population = offspring
-            self.request.get_logger().info('Se termina la generación %d. Obtenida nueva población.' % (generation))
+            self.request.get_logger().info('Se termina la generación %d.' % (generation))
             
         # Devolver el mejor cromosoma de la última generación
         best_chromosome = min(evaluated_population, key=lambda x: x[1])#[0]
