@@ -21,7 +21,7 @@ class GeneticIndexesClient(Node):
         # cambio de parámetros leyendo de un topic
         self.subscription = self.create_subscription(String,'miguel', self.listener_callback,10)
         
-        # ZONA DE DECLARACIÓN DE PARAMTEROS DE PRUEBA
+        # ZONA DE DECLARACIÓN DE PARAMETROS DE PRUEBA
         # declaración de parámetro para pruebas de cambio de valor
         # en tiempo de ejecución
         self.declare_parameter('my_parameter', 'world')
@@ -51,7 +51,6 @@ class GeneticIndexesClient(Node):
         #INSTANCIA AG
         self.AG = Genetico()
         
-        
     # ZONA TOPIC CALLBACK        
     # En el momento que se recibe un valor por el topic
     # se ejecuta esta función asignando dicho valor al parámetro declarado arriba
@@ -77,9 +76,6 @@ class GeneticIndexesClient(Node):
         
         # devolver el resultado de la respuesta del servidor
         return self.future.result()
-    
-    
- 
     
 # función principal
 def main():

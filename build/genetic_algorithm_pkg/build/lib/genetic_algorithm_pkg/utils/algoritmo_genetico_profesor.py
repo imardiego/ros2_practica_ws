@@ -8,7 +8,8 @@ class Genetico:
         #Fitness
         self.Fitness = 0;
         self.w = (25., .6, 200., 15.) # weight of ts, d, overshot, ess 
-        
+      
+    # LA INSTANCIA DE CLIENTE SE PASA AQUÍ A LA CLASE GENETICO  
     def set_request(self,instance_client):
         self.request = instance_client
         
@@ -17,24 +18,24 @@ class Genetico:
         Kp=Gen_Kp
         Ki=Gen_Ki
         Kd=Gen_Kd
-               
+        
+        # ZONA DE PETICIÓN DE SERVICIO Y RESPUESTA DEL SERVIDOR
+        # se hace una petición por cada individuo de cada nueva población  
         response = self.request.send_request(Kp, Ki, Kd)
         o =response.overshoot 
         d =response.d
         ess = response.ess
         ts = response.ts
-        
-        
+                
         # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
         self.request.get_logger().info(
             'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
                                                                                     (Kp, Ki, Kd , o, d, ess, ts))
-             
+         
+        # cálculo del fitnes con los pesos propuestos    
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
-        
         return Fitness
-
-    
+  
     # Función de evaluación (fitness)
     def evaluate(self, chromosome):
         # Aquí debes implementar la evaluación del cromosoma y retornar un valor de fitness
@@ -86,7 +87,10 @@ class Genetico:
             chromosome = self.generate_random_chromosome(chromosome_length)
             population.append(chromosome)
             
-        self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % (population_size, chromosome_length))
+        
+        # aquí puedo imprimir los valores kp,ki,kd de una población de 50 y comprobar.     
+        self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % 
+                                                                                 (population_size, chromosome_length))
         
         for generation in range(generations): 
                                
@@ -96,7 +100,8 @@ class Genetico:
 
             # Selección de padres mediante torneo de longitud T
             parents = []
-            T=8 # Se seleccionan 8 cromosomas de manera aleatoria pra el torneo. Nos quedaremos con el de menor función de fitness
+            T=8 # Se seleccionan 8 cromosomas de manera aleatoria pra el torneo. 
+            # Nos quedaremos con el de menor función de fitness
             
             parents = self.selection_tournament(population_size, evaluated_population, T)
 

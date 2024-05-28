@@ -1,0 +1,21 @@
+[1.714s] Invoking command in '/home/miguel/ros2_practica_ws/src/sim_pkg': PYTHONPATH=/home/miguel/ros2_practica_ws/build/sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/sim_pkg/install.log --single-version-externally-managed install_data
+[2.266s] running egg_info
+[2.267s] writing ../../build/sim_pkg/sim_pkg.egg-info/PKG-INFO
+[2.267s] writing dependency_links to ../../build/sim_pkg/sim_pkg.egg-info/dependency_links.txt
+[2.268s] writing entry points to ../../build/sim_pkg/sim_pkg.egg-info/entry_points.txt
+[2.268s] writing requirements to ../../build/sim_pkg/sim_pkg.egg-info/requires.txt
+[2.268s] writing top-level names to ../../build/sim_pkg/sim_pkg.egg-info/top_level.txt
+[2.272s] reading manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[2.274s] writing manifest file '../../build/sim_pkg/sim_pkg.egg-info/SOURCES.txt'
+[2.274s] running build
+[2.274s] running build_py
+[2.276s] running install
+[2.276s] running install_lib
+[2.280s] running install_data
+[2.281s] running install_egg_info
+[2.283s] removing '/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.284s] Copying ../../build/sim_pkg/sim_pkg.egg-info to /home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages/sim_pkg-0.0.0-py3.10.egg-info
+[2.287s] running install_scripts
+[2.317s] Installing simulator script to /home/miguel/ros2_practica_ws/install/sim_pkg/lib/sim_pkg
+[2.318s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/sim_pkg/install.log'
+[2.375s] Invoked command in '/home/miguel/ros2_practica_ws/src/sim_pkg' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/sim_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/sim_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sim_pkg build --build-base /home/miguel/ros2_practica_ws/build/sim_pkg/build install --record /home/miguel/ros2_practica_ws/build/sim_pkg/install.log --single-version-externally-managed install_data

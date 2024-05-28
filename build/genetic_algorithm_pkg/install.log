@@ -1,16 +1,10 @@
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_prueba_node.py
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node_2on.py
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node _pruebas.py
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node _1on.py
+/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node_pruebas.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__init__.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/algoritmo_genetico_profesor.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/__init__.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/algoritmo_genetico_miguel.py
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_prueba_node.cpython-310.pyc
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_node_2on.cpython-310.pyc
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_node _pruebas.cpython-310.pyc
-/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_node _1on.cpython-310.pyc
+/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_node_pruebas.cpython-310.pyc
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/__init__.cpython-310.pyc
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/__pycache__/genetic_algorithm_node.cpython-310.pyc
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/__pycache__/algoritmo_genetico_profesor.cpython-310.pyc
