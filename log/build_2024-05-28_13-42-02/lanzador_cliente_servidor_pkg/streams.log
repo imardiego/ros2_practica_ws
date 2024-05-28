@@ -1,0 +1,22 @@
+[1.649s] Invoking command in '/home/miguel/ros2_practica_ws/src/lanzador_cliente_servidor_pkg': PYTHONPATH=/home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lanzador_cliente_servidor_pkg build --build-base /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build install --record /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/install.log --single-version-externally-managed install_data
+[2.179s] running egg_info
+[2.180s] writing ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/PKG-INFO
+[2.181s] writing dependency_links to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/dependency_links.txt
+[2.182s] writing entry points to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/entry_points.txt
+[2.182s] writing requirements to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/requires.txt
+[2.183s] writing top-level names to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/top_level.txt
+[2.186s] reading manifest file '../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt'
+[2.187s] adding license file 'LICENSE'
+[2.188s] writing manifest file '../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt'
+[2.189s] running build
+[2.189s] running build_py
+[2.189s] running install
+[2.190s] running install_lib
+[2.192s] running install_data
+[2.192s] copying launch/lanzador_cliente_servidor.launch.py -> /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/lanzador_cliente_servidor_pkg
+[2.192s] running install_egg_info
+[2.195s] removing '/home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.196s] Copying ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info to /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg-0.0.0-py3.10.egg-info
+[2.197s] running install_scripts
+[2.233s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/install.log'
+[2.284s] Invoked command in '/home/miguel/ros2_practica_ws/src/lanzador_cliente_servidor_pkg' returned '0': PYTHONPATH=/home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lanzador_cliente_servidor_pkg build --build-base /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build install --record /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/install.log --single-version-externally-managed install_data

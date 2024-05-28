@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/PKG-INFO
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/dependency_links.txt
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/entry_points.txt
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/requires.txt
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/top_level.txt
+../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/zip-safe
+lanzador_cliente_servidor_pkg/__init__.py
+launch/lanzador_cliente_servidor.launch.py
+resource/lanzador_cliente_servidor_pkg
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

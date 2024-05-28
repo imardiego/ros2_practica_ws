@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info
+writing ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/requires.txt
+writing top-level names to ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/top_level.txt
+writing manifest file '../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build
+creating /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build/lib
+creating /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build/lib/lanzador_cliente_servidor_pkg
+copying lanzador_cliente_servidor_pkg/__init__.py -> /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build/lib/lanzador_cliente_servidor_pkg
+running install
+running install_lib
+creating /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg
+copying /home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/build/lib/lanzador_cliente_servidor_pkg/__init__.py -> /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg
+byte-compiling /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/ament_index
+creating /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/ament_index/resource_index
+creating /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/ament_index/resource_index/packages
+copying resource/lanzador_cliente_servidor_pkg -> /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/lanzador_cliente_servidor_pkg
+copying launch/lanzador_cliente_servidor.launch.py -> /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/share/lanzador_cliente_servidor_pkg
+running install_egg_info
+Copying ../../build/lanzador_cliente_servidor_pkg/lanzador_cliente_servidor_pkg.egg-info to /home/miguel/ros2_practica_ws/install/lanzador_cliente_servidor_pkg/lib/python3.10/site-packages/lanzador_cliente_servidor_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/miguel/ros2_practica_ws/build/lanzador_cliente_servidor_pkg/install.log'
