@@ -11,9 +11,9 @@ def generate_launch_description():
             #arguments=['10.0', '11.0', '12.0'],
             parameters=[
                 {'population_size':100},
-                {'generations':200},
-                {'mutation_rate':0.2},
-                {'crossover_rate':0.5},
+                {'generations':500},
+                {'mutation_rate':0.18},
+                {'crossover_rate':0.33},
             ],
 	    )
     ])
