@@ -1,0 +1,25 @@
+[1.583s] Invoking command in '/home/miguel/ros2_practica_ws/src/genetic_algorithm_pkg': CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control:/home/miguel/ros2_practica_ws/install/my_messages_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/msgs_control/lib:/home/miguel/ros2_practica_ws/install/my_messages_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/genetic_algorithm_pkg build --build-base /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build install --record /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log --single-version-externally-managed install_data
+[2.072s] running egg_info
+[2.074s] writing ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/PKG-INFO
+[2.074s] writing dependency_links to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/dependency_links.txt
+[2.075s] writing entry points to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/entry_points.txt
+[2.075s] writing requirements to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/requires.txt
+[2.075s] writing top-level names to ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/top_level.txt
+[2.078s] reading manifest file '../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/SOURCES.txt'
+[2.079s] adding license file 'LICENSE'
+[2.080s] writing manifest file '../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info/SOURCES.txt'
+[2.080s] running build
+[2.080s] running build_py
+[2.081s] copying genetic_algorithm_pkg/genetic_algorithm_node.py -> /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg
+[2.082s] running install
+[2.083s] running install_lib
+[2.085s] copying /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build/lib/genetic_algorithm_pkg/genetic_algorithm_node.py -> /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg
+[2.086s] byte-compiling /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node.py to genetic_algorithm_node.cpython-310.pyc
+[2.088s] running install_data
+[2.088s] running install_egg_info
+[2.091s] removing '/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.091s] Copying ../../build/genetic_algorithm_pkg/genetic_algorithm_pkg.egg-info to /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info
+[2.093s] running install_scripts
+[2.127s] Installing genetic script to /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/genetic_algorithm_pkg
+[2.127s] writing list of installed files to '/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log'
+[2.175s] Invoked command in '/home/miguel/ros2_practica_ws/src/genetic_algorithm_pkg' returned '0': CMAKE_PREFIX_PATH=/home/miguel/ros2_practica_ws/install/msgs_control:/home/miguel/ros2_practica_ws/install/my_messages_control LD_LIBRARY_PATH=/home/miguel/ros2_practica_ws/install/msgs_control/lib:/home/miguel/ros2_practica_ws/install/my_messages_control/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/prefix_override:/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/genetic_algorithm_pkg build --build-base /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/build install --record /home/miguel/ros2_practica_ws/build/genetic_algorithm_pkg/install.log --single-version-externally-managed install_data

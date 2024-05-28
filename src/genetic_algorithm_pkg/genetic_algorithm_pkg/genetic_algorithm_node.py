@@ -34,7 +34,10 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
         
-        self.declare_parameter('log_level','INFO')
+        #self.declare_parameter('log_level','INFO')
+        
+        # idioma de los avisos, es: español en:ingles
+        self.declare_parameter('idioma','en')
                 
         # ZONA CREACIÓN CLIENTE DE SERVICIO
         # creación del  cliente de servicio especificando 
@@ -56,7 +59,7 @@ class GeneticIndexesClient(Node):
         
         # ZONA DE LOG LEVEL
         # el  nivel de log es INFO
-        rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
+        #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
         
     # ZONA TOPIC CALLBACK        
     # En el momento que se recibe un valor por el topic
@@ -105,8 +108,10 @@ def main():
     generaciones=indexes_client.get_parameter('generations').get_parameter_value().integer_value
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
-    nivel_log= indexes_client.get_parameter('log_level').get_parameter_value().string_value
-    
+    idioma=indexes_client.get_parameter('idioma').get_parameter_value().string_value
+    #nivel_log= indexes_client.get_parameter('log_level').get_parameter_value().string_value
+    #cadena="rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity." + nivel_log +")"
+    rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
     indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO') 
     indexes_client.get_logger().info('Población: %d  Cromosomas: %d Generaciones: %d Mutación: %f Emparejamiento: %f' % 
                                                         (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 

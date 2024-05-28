@@ -1,5 +1,6 @@
 import random
 from operator import itemgetter
+import rclpy
 
 #algoritmo genético
 class Genetico:
@@ -11,7 +12,7 @@ class Genetico:
       
     # LA INSTANCIA DE CLIENTE SE PASA AQUÍ A LA CLASE GENETICO  
     def set_request(self,instance_client):
-        self.request = instance_client
+        self.instance = instance_client
         
     def llamada_control(self, Gen_Kp, Gen_Ki, Gen_Kd): 
         
@@ -21,17 +22,26 @@ class Genetico:
         
         # ZONA DE PETICIÓN DE SERVICIO Y RESPUESTA DEL SERVIDOR
         # se hace una petición por cada individuo de cada nueva población  
-        response = self.request.send_request(Kp, Ki, Kd)
+        response = self.instance.send_request(Kp, Ki, Kd)
         o =response.overshoot 
         d =response.d
         ess = response.ess
         ts = response.ts
-                
+           
+        #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)   
+        self.idioma=self.instance.get_parameter('idioma').get_parameter_value().string_value
         # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
-        self.request.get_logger().info(
-            'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
-                                                                                    (Kp, Ki, Kd , o, d, ess, ts))
-         
+        if (self.idioma=='es'):  
+            self.instance.get_logger().info(
+                'Petición al servidor:  Kp= %f  Ki=%f Kd= %f \n Respuesta del servidor: Overshoot= %f d= %f Ess= %f ts= %f' %
+                                                                                               (Kp, Ki, Kd , o, d, ess, ts))
+        else:
+            self.instance.get_logger().info(
+                'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
+                                                                                        (Kp, Ki, Kd , o, d, ess, ts))
+        
+            
+        
         # cálculo del fitnes con los pesos propuestos    
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
         return Fitness
@@ -63,7 +73,7 @@ class Genetico:
         mutated_chromosome = []
         for gene in chromosome:
             if random.random() < mutation_rate:
-                mutated_gene = random.uniform(0.0, 10.0)  # Generar número aleatorio en el rango [0.0, 5.0]
+                mutated_gene = random.uniform(0.0, 10.0)  # Generar número aleatorio en el rango [0.0, 10.0)
             else:
                 mutated_gene = gene
             mutated_chromosome.append(mutated_gene)
@@ -89,14 +99,14 @@ class Genetico:
             
         
         # aquí puedo imprimir los valores kp,ki,kd de una población de 50 y comprobar.     
-        self.request.get_logger().info('Población generada con %d cromosomas de longitud %d' % 
+        self.instance.get_logger().info('Población generada con %d cromosomas de longitud %d' % 
                                                                                  (population_size, chromosome_length))
         
         for generation in range(generations): 
                                
             evaluated_population = [(chromosome, self.evaluate(chromosome)) for chromosome in population]
             
-            self.request.get_logger().info('Se ha evaluado la población de la generación  %d .' % (generation)) 
+            self.instance.get_logger().info('Se ha evaluado la población de la generación  %d .' % (generation)) 
 
             # Selección de padres mediante torneo de longitud T
             parents = []
@@ -119,7 +129,7 @@ class Genetico:
             
             # Reemplazar la población anterior con la descendencia
             population = offspring
-            self.request.get_logger().info('Se termina la generación %d.' % (generation))
+            self.instance.get_logger().info('Se termina la generación %d.' % (generation))
             
         # Devolver el mejor cromosoma de la última generación
         best_chromosome = min(evaluated_population, key=lambda x: x[1])#[0]
