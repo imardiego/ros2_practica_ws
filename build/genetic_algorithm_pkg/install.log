@@ -12,6 +12,8 @@
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/utils/__pycache__/algoritmo_genetico_miguel.cpython-310.pyc
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/ament_index/resource_index/packages/genetic_algorithm_pkg
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/genetic_algorithm_pkg/package.xml
+/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/genetic_algorithm_pkg/genetic_algorithm_client.launch.py
+/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/share/genetic_algorithm_pkg/genetic_algorithm_client_p100_g500_m018_c033.launch.py
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info/PKG-INFO
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info/top_level.txt
 /home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg-0.0.0-py3.10.egg-info/requires.txt

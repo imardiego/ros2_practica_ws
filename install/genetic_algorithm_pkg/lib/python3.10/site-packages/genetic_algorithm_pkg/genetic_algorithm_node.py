@@ -104,7 +104,7 @@ def main():
                                                         (poblacion, cromosomas, generaciones, mutacion, emparejamiento)) 
     
     # ZONA  DE INTERACCIÓN CON EL USUARIO
-    input("Pulsa Enter para ejecutar el algoritmo genético!!")
+    # input("Pulsa Enter para ejecutar el algoritmo genético!!")
     # ZONA EJECUCIÓN ALGORTIMO GENETICO
     mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
     

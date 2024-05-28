@@ -3,7 +3,7 @@ from setuptools import find_packages, setup
 # introduzco modulo que encuentra los nombres de ruta
 # que coinciden con un patrón específico de acuerdo con las 
 # reglas utilizadas por el shell de Unix
-#from glob import glob
+from glob import glob
 
 package_name = 'genetic_algorithm_pkg'
 
@@ -17,7 +17,7 @@ setup(
         ('share/' + package_name, ['package.xml']),
         # deberé meter aquí una línea de búsqueda
         # le digo como buscar el fichero de lanzamiento
-        #('share/{}'.format(package_name), glob('launch/*.launch.py')),
+        ('share/{}'.format(package_name), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
