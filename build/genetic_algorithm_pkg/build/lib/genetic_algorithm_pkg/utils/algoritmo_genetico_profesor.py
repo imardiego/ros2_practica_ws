@@ -30,6 +30,7 @@ class Genetico:
            
         #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)   
         self.idioma=self.instance.get_parameter('idioma').get_parameter_value().string_value
+        
         # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
         if (self.idioma=='es'):  
             self.instance.get_logger().info(
@@ -39,9 +40,7 @@ class Genetico:
             self.instance.get_logger().info(
                 'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
                                                                                         (Kp, Ki, Kd , o, d, ess, ts))
-        
-            
-        
+                 
         # cálculo del fitnes con los pesos propuestos    
         Fitness= o * self.w[2] + d * self.w[1] + ess * self.w[3] + ts * self.w[0]
         return Fitness

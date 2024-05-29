@@ -33,10 +33,9 @@ class GeneticIndexesClient(Node):
         self.declare_parameter('generations',50)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
-        
         #self.declare_parameter('log_level','INFO')
         
-        # idioma de los avisos, es: español en:ingles
+        # idioma de de información de solicitudes y respuesta de servicio, es: español en:ingles
         self.declare_parameter('idioma','en')
                 
         # ZONA CREACIÓN CLIENTE DE SERVICIO
@@ -108,8 +107,10 @@ def main():
     generaciones=indexes_client.get_parameter('generations').get_parameter_value().integer_value
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
+    
     idioma=indexes_client.get_parameter('idioma').get_parameter_value().string_value
-    #nivel_log= indexes_client.get_parameter('log_level').get_parameter_value().string_value
+   
+   
     #cadena="rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity." + nivel_log +")"
     rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
     indexes_client.get_logger().info('PARÁMETROS DE EJECUCIÓN DEL ALGORITMO GENÉTICO') 
@@ -118,9 +119,10 @@ def main():
     
     # ZONA  DE INTERACCIÓN CON EL USUARIO
     # input("Pulsa Enter para ejecutar el algoritmo genético!!")
+    
     # ZONA EJECUCIÓN ALGORTIMO GENETICO
     mejor_cromosoma=indexes_client.AG.genetic_algorithm(poblacion, cromosomas, generaciones, mutacion, emparejamiento)
-#faltaría meter el nivel de log aquí
+
     # ZONA FINALIZACIÓN ALGORITMO GENÉTICO
     indexes_client.get_logger().info('Mejor cromosoma: %s' % str(mejor_cromosoma)) 
     
