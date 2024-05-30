@@ -18,26 +18,22 @@ class GeneticIndexesClient(Node):
         super().__init__('genetic_algorithm_node')
         
         # ZONA TOPICS
-        # suscripción al topic miguel para prueba de 
-        # cambio de parámetros leyendo de un topic
-        self.subscription = self.create_subscription(String,'stop', self.listener_callback,10)
-        
-        # ZONA DE DECLARACIÓN DE PARAMETROS DE PRUEBA
-        # declaración de parámetro para pruebas de cambio de valor
-        # en tiempo de ejecución
-        self.declare_parameter('my_parameter', 'world')
-        
+        # suscripción al topic stop para prueba de 
+        # cambio shutdown desde el topic
+        self.subscription = self.create_subscription(String,'stop_genetic_node', self.listener_callback,10)
+                     
         #ZONA DE DECLARACION DE PARAMETROS AG  
         self.declare_parameter('population_size', 50)
         self.declare_parameter('chromosome_length',3)
         self.declare_parameter('generations',50)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
+        
         #self.declare_parameter('log_level','INFO')
         
         # idioma de de información de solicitudes y respuesta de servicio, es: español en:ingles
-        self.declare_parameter('idioma','en')
-                
+        self.declare_parameter('idioma','en')    
+        
         # ZONA CREACIÓN CLIENTE DE SERVICIO
         # creación del  cliente de servicio especificando 
         # estructura de comunicación y servidor de servicio 
@@ -49,8 +45,7 @@ class GeneticIndexesClient(Node):
             self.get_logger().info('service not available, waiting again...')
             self.get_logger().info('si el nodo servidor no está levantado, levántalo!!')
             
-        # cuando el servidor esté activo instancia 
-        # la interfaz de comunicación
+        # cuando el servidor esté activo instancia la interfaz de comunicación
         self.req = SimPID.Request()
         
         #INSTANCIA AG
@@ -58,13 +53,16 @@ class GeneticIndexesClient(Node):
         
         # ZONA DE LOG LEVEL
         # el  nivel de log es INFO
-        #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
+        # rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.INFO)
         
     # ZONA TOPIC CALLBACK        
     # En el momento que se recibe un valor por el topic
-    # se ejecuta esta función asignando dicho valor al parámetro declarado arriba
+    # se ejecuta esta función 
     def listener_callback(self, msg):
-        self.my_param=msg.data
+        if(msg.data=="True"): 
+            self.get_logger().info('Apagado del nodo mediante el valor llegado por el topic stop: %s' % (msg.data))
+            self.destroy_node() 
+            rclpy.shutdown() 
     
     
     # ZONA FUNCIÓN ENVIO PETICIÓN SERVICIO
@@ -108,7 +106,9 @@ def main():
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
     
+    # la siguiente línea se ejecuta en el método llamada control de AG:
     #idioma=indexes_client.get_parameter('idioma').get_parameter_value().string_value
+    #yestop=indexes_client.get_parameter('stop').get_parameter_value().integer_value
    
    
     #cadena="rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity." + nivel_log +")"

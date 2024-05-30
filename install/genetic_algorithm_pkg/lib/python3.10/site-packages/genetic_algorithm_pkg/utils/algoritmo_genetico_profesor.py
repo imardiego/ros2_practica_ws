@@ -1,6 +1,5 @@
 import random
 from operator import itemgetter
-import rclpy
 
 #algoritmo genético
 class Genetico:
@@ -27,10 +26,13 @@ class Genetico:
         d =response.d
         ess = response.ess
         ts = response.ts
-           
-        #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)   
-        self.idioma=self.instance.get_parameter('idioma').get_parameter_value().string_value
+         
+        # PRUEBAS DE CAMBIO DE LOG LEVEL EN TIEMPO DE EJECUCIÓN  
+        #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)  
         
+        # ZONA DE COMPROBACIÓN DE ENTRADA DE CAMBIO DE PARÁMETRO EN TIEMPO DE EJECUCIÓN 
+        self.idioma=self.instance.get_parameter('idioma').get_parameter_value().string_value
+                   
         # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
         if (self.idioma=='es'):  
             self.instance.get_logger().info(

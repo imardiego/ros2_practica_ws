@@ -1,0 +1,2 @@
+/home/miguel/ros2_practica_ws/install/genetic_algorithm_pkg/lib/python3.10/site-packages/genetic_algorithm_pkg/genetic_algorithm_node.py:68: SyntaxWarning: 'str' object is not callable; perhaps you missed a comma?
+  self.get_logger().info('Apagado del nodo mediante el valor llegado por el topic stop: %s' (msg.data))
