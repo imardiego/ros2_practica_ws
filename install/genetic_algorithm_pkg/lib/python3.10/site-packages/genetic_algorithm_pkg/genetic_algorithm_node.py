@@ -20,7 +20,7 @@ class GeneticIndexesClient(Node):
         # ZONA TOPICS
         # suscripción al topic miguel para prueba de 
         # cambio de parámetros leyendo de un topic
-        self.subscription = self.create_subscription(String,'miguel', self.listener_callback,10)
+        self.subscription = self.create_subscription(String,'stop', self.listener_callback,10)
         
         # ZONA DE DECLARACIÓN DE PARAMETROS DE PRUEBA
         # declaración de parámetro para pruebas de cambio de valor
@@ -107,7 +107,8 @@ def main():
     generaciones=indexes_client.get_parameter('generations').get_parameter_value().integer_value
     mutacion=indexes_client.get_parameter('mutation_rate').get_parameter_value().double_value
     emparejamiento=indexes_client.get_parameter('crossover_rate').get_parameter_value().double_value
-    idioma=indexes_client.get_parameter('idioma').get_parameter_value().string_value
+    
+    #idioma=indexes_client.get_parameter('idioma').get_parameter_value().string_value
    
    
     #cadena="rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity." + nivel_log +")"
