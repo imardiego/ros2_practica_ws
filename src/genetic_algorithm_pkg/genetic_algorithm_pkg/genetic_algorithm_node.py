@@ -60,7 +60,7 @@ class GeneticIndexesClient(Node):
     # se ejecuta esta función 
     def listener_callback(self, msg):
         if(msg.data=="True"): 
-            self.get_logger().info('Apagado del nodo mediante el valor llegado por el topic stop: %s' % (msg.data))
+            self.get_logger().info('Apagado del nodo mediante el valor llegado por el topic /stop_genetic_node:= %s' % (msg.data))
             self.destroy_node() 
             rclpy.shutdown() 
     
