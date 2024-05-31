@@ -64,7 +64,7 @@ class Controller:
 if __name__ == '__main__':
     controller = Controller()
     Kp=0.1#0.1#0.5
-    Ki=7#0.008#0.004
+    Ki=0.7#0.008#0.004
     Kd=0.6#0.0#0.º
     controller.Init(Kp, Ki, Kd)
     print('Init')
