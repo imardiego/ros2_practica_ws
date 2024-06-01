@@ -22,10 +22,10 @@ class Genetico:
         # ZONA DE PETICIÓN DE SERVICIO Y RESPUESTA DEL SERVIDOR
         # se hace una petición por cada individuo de cada nueva población  
         response = self.instance.send_request(Kp, Ki, Kd)
-        o =response.overshoot 
+        o =response.Overshoot 
         d =response.d
-        ess = response.ess
-        ts = response.ts
+        ess = response.Ess
+        ts = response.Ts
          
         # PRUEBAS DE CAMBIO DE LOG LEVEL EN TIEMPO DE EJECUCIÓN  
         #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)  
@@ -36,11 +36,11 @@ class Genetico:
         # ZONA DE INFORMACIÓN DE ENVÍO Y RESPUESTA DE SOLICITUD DE SERVICIO
         if (self.idioma=='es'):  
             self.instance.get_logger().info(
-                'Petición al servidor:  Kp= %f  Ki=%f Kd= %f \n Respuesta del servidor: Overshoot= %f d= %f Ess= %f ts= %f' %
+                'Petición al servidor:  Kp= %f  Ki= %f Kd= %f \n Respuesta del servidor: Overshoot= %f d= %f Ess= %f ts= %f' %
                                                                                                (Kp, Ki, Kd , o, d, ess, ts))
         else:
             self.instance.get_logger().info(
-                'Request to server:  Kp= %f  Ki=%f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
+                'Request to server:  Kp= %f  Ki= %f Kd= %f \n Response server: Overshoot= %f d= %f Ess= %f ts= %f' %
                                                                                         (Kp, Ki, Kd , o, d, ess, ts))
                  
         # cálculo del fitnes con los pesos propuestos    
@@ -57,7 +57,7 @@ class Genetico:
     def generate_random_chromosome(self, length):  
         chromosome = []
         for _ in range(length):
-            gene = random.uniform(0.0, 10.0)  # Generar número aleatorio en el rango [0.0, 10.0]
+            gene = random.uniform(0.0, 10.0)  # Generar número aleatorio en el rango [0.0, 10.0)
             chromosome.append(gene)            
         return chromosome
 

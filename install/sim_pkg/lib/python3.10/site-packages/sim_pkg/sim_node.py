@@ -51,19 +51,19 @@ class SimPIDService(Node):
 
         # Calculate performance metrics
         self.P.Init(self.velocidad, self.Velocidad_de_referencia)
-        overshoot, d, ess, Ts = self.P.Calcula_indexes()
+        Overshoot, d, Ess, Ts = self.P.Calcula_indexes()
 
         # Assign calculated values to response
-        response.overshoot = overshoot
+        response.Overshoot = Overshoot
         response.d = d
-        response.ess = ess
-        response.ts = Ts
+        response.Ess = Ess
+        response.Ts = Ts
 
         # Clear lists for next service call
         self.velocidad.clear()
         self.ut.clear()
         self.coordenadax.clear()
-        self.get_logger().info('Outcoming response:  overshoot= %f d= %f ess= %f ts= %f' % (overshoot,d,ess,Ts))
+        self.get_logger().info('Outcoming response:  overshoot= %f d= %f ess= %f ts= %f' % (Overshoot,d,Ess,Ts))
         return response
 
 

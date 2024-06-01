@@ -16,7 +16,7 @@ class Controller:
         self.Ki = new_Ki
         self.Kd = new_Kd
 
-        # Inicializar el motor
+        # Inicializar el simulador de motor
         self.motor_sim.init()
         
 
