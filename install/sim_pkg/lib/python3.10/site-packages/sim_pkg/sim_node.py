@@ -54,10 +54,10 @@ class SimPIDService(Node):
         Overshoot, d, Ess, Ts = self.P.Calcula_indexes()
 
         # Assign calculated values to response
-        response.Overshoot = Overshoot
+        response.overshoot = Overshoot
         response.d = d
-        response.Ess = Ess
-        response.Ts = Ts
+        response.ess = Ess
+        response.ts = Ts
 
         # Clear lists for next service call
         self.velocidad.clear()

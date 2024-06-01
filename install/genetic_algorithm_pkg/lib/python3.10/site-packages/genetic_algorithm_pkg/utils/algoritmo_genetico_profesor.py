@@ -22,10 +22,10 @@ class Genetico:
         # ZONA DE PETICIÓN DE SERVICIO Y RESPUESTA DEL SERVIDOR
         # se hace una petición por cada individuo de cada nueva población  
         response = self.instance.send_request(Kp, Ki, Kd)
-        o =response.Overshoot 
+        o =response.overshoot 
         d =response.d
-        ess = response.Ess
-        ts = response.Ts
+        ess = response.ess
+        ts = response.ts
          
         # PRUEBAS DE CAMBIO DE LOG LEVEL EN TIEMPO DE EJECUCIÓN  
         #rclpy.logging.set_logger_level('genetic_algorithm_node', rclpy.logging.LoggingSeverity.WARN)  
