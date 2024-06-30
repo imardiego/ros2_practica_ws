@@ -1,5 +1,5 @@
 import random
-from operator import itemgetter
+from operator import itemgetter 
 
 #algoritmo genético
 class Genetico:

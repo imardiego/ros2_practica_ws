@@ -13,7 +13,6 @@ genetic_algorithm_pkg/__init__.py
 genetic_algorithm_pkg/genetic_algorithm_node.py
 genetic_algorithm_pkg/genetic_algorithm_node_pruebas.py
 genetic_algorithm_pkg/utils/__init__.py
-genetic_algorithm_pkg/utils/algoritmo_genetico_miguel.py
 genetic_algorithm_pkg/utils/algoritmo_genetico_miguel_modificado_para_ros.py
 genetic_algorithm_pkg/utils/algoritmo_genetico_profesor.py
 launch/genetic_algorithm_client.launch.py
