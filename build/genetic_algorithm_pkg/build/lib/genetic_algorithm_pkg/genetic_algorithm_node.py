@@ -23,9 +23,9 @@ class GeneticIndexesClient(Node):
         self.subscription = self.create_subscription(String,'stop_genetic_node', self.listener_callback,10)
                      
         #ZONA DE DECLARACION DE PARAMETROS AG  
-        self.declare_parameter('population_size', 50)
+        self.declare_parameter('population_size', 100)
         self.declare_parameter('chromosome_length',3)
-        self.declare_parameter('generations',50)
+        self.declare_parameter('generations',200)
         self.declare_parameter('mutation_rate', 0.1)
         self.declare_parameter('crossover_rate', 0.6)
         
